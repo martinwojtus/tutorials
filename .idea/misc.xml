@@ -7,7 +7,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-boot/hello-world/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot/pom.xml" />
       </list>
     </option>
   </component>

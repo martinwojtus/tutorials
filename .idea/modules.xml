@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/spring-boot/custom-banner/custom-banner.iml" filepath="$PROJECT_DIR$/spring-boot/custom-banner/custom-banner.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot/hello-world/hello-world.iml" filepath="$PROJECT_DIR$/spring-boot/hello-world/hello-world.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot/spring-boot.iml" filepath="$PROJECT_DIR$/spring-boot/spring-boot.iml" />
     </modules>
   </component>
 </project>

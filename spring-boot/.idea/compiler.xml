@@ -6,15 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="custom-banner" />
-        <module name="hello-world" />
+        <module name="spring-boot" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="custom-banner" target="1.8" />
-      <module name="hello-world" target="1.8" />
-      <module name="spring-boot" target="1.8" />
-      <module name="tutorials" target="1.5" />
-    </bytecodeTargetLevel>
   </component>
 </project>
