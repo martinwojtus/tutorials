@@ -7,13 +7,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="custom-banner" />
+        <module name="first-thymeleaf-application" />
         <module name="hello-world" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="custom-banner" target="1.8" />
+      <module name="first-thymeleaf-application" target="1.8" />
       <module name="hello-world" target="1.8" />
       <module name="spring-boot" target="1.8" />
+      <module name="thymeleaf" target="1.8" />
       <module name="tutorials" target="1.5" />
     </bytecodeTargetLevel>
   </component>
