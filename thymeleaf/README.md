@@ -3,5 +3,5 @@
 # Thymeleaf
 
 Relevant Articles:
-* [Spring Boot with Thymeleaf](http://frontbackend.com/thymeleaf/spring-boot-with-thymeleaf)
-
+* [Spring Boot with Thymeleaf](https://frontbackend.com/thymeleaf/spring-boot-with-thymeleaf)
+* [Thymeleaf default Spring Boot application properties](https://frontbackend.com/thymeleaf/thymeleaf-default-spring-boot-application-properties)
