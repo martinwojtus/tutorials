@@ -1,0 +1,120 @@
+[
+  {
+    "firstName": "Scott",
+    "lastName": "Padilla",
+    "email": "scott.padilla@frontbackend.com",
+    "age": 41,
+    "addressList": [
+      {
+        "street": "Pikir Pike",
+        "city": "Limginil",
+        "state": "NY",
+        "zip": 47999
+      },
+      {
+        "street": "Tunehe Avenue",
+        "city": "Didgiofi",
+        "state": "NY",
+        "zip": 85095
+      }
+    ]
+  },
+  {
+    "firstName": "Joshua",
+    "lastName": "Boone",
+    "email": "joshua.boone@frontbackend.com",
+    "age": 51,
+    "addressList": [
+      {
+        "street": "Nocwe Parkway",
+        "city": "Virjowiz",
+        "state": "IL",
+        "zip": 6111
+      }
+    ]
+  },
+  {
+    "firstName": "Bill",
+    "lastName": "Alexander",
+    "email": "bill.alexander@frontbackend.com",
+    "age": 56,
+    "addressList": [
+      {
+        "street": "Buppi View",
+        "city": "Vilimsu",
+        "state": "MD",
+        "zip": 10207
+      }
+    ]
+  },
+  {
+    "firstName": "May",
+    "lastName": "Rios",
+    "email": "may.rios@frontbackend.com",
+    "age": 25,
+    "addressList": [
+      {
+        "street": "Uluome Pike",
+        "city": "Sodbimus",
+        "state": "RI",
+        "zip": 55335
+      }
+    ]
+  },
+  {
+    "firstName": "Johnny",
+    "lastName": "Stevens",
+    "email": "johnny.stevens@frontbackend.com",
+    "age": 61,
+    "addressList": [
+      {
+        "street": "Getoj Mill",
+        "city": "Zitbakbah",
+        "state": "MN",
+        "zip": 17966
+      }
+    ]
+  },
+  {
+    "firstName": "Donald",
+    "lastName": "Henderson",
+    "email": "donald.henderson@frontbackend.com",
+    "age": 45,
+    "addressList": [
+      {
+        "street": "Buni Mill",
+        "city": "Azewegow",
+        "state": "NM",
+        "zip": 80270
+      }
+    ]
+  },
+  {
+    "firstName": "Clifford",
+    "lastName": "Ryan",
+    "email": "clifford.ryan@frontbackend.com",
+    "age": 51,
+    "addressList": [
+      {
+        "street": "Idajek Parkway",
+        "city": "Vawowla",
+        "state": "MT",
+        "zip": 26746
+      }
+    ]
+  },
+  {
+    "firstName": "Harriet",
+    "lastName": "Willis",
+    "email": "harriet.willis@frontbackend.com",
+    "age": 43,
+    "addressList": [
+      {
+        "street": "Akikab River",
+        "city": "Olwedkuz",
+        "state": "IL",
+        "zip": 2098
+      }
+    ]
+  }
+]

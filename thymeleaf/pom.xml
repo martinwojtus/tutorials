@@ -10,7 +10,8 @@
     <packaging>pom</packaging>
 
     <modules>
-       <module>first-thymeleaf-application</module>
+        <module>first-thymeleaf-application</module>
+        <module>thymeleaf-iteration</module>
     </modules>
 
     <properties>
