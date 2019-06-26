@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5770a66-72aa-48ec-ab41-56848558f4bb" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thymeleaf/thymeleaf-iteration/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thymeleaf/thymeleaf-iteration/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thymeleaf/thymeleaf-iteration/src/main/java/com/frontbackend/thymeleaf/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thymeleaf/thymeleaf-iteration/src/main/java/com/frontbackend/thymeleaf/customers/controller/CustomerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thymeleaf/thymeleaf-iteration/src/main/java/com/frontbackend/thymeleaf/customers/model/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thymeleaf/thymeleaf-iteration/src/main/java/com/frontbackend/thymeleaf/customers/model/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thymeleaf/thymeleaf-iteration/src/main/java/com/frontbackend/thymeleaf/customers/service/CustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thymeleaf/thymeleaf-iteration/src/main/resources/mockedCustomers.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thymeleaf/thymeleaf-iteration/src/main/resources/templates/customers.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thymeleaf/thymeleaf-iteration/thymeleaf-iteration.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thymeleaf/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/thymeleaf/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/thymeleaf/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/spring-boot/hello-world/target/" />
@@ -119,14 +104,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thymeleaf/first-thymeleaf-application/src/main/java/com/frontbackend/thymeleaf/Application.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="12" selection-end-line="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/thymeleaf/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="105">
+                <caret line="7" column="92" selection-start-line="7" selection-start-column="92" selection-end-line="7" selection-end-column="92" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -140,7 +125,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/thymeleaf/thymeleaf-iteration/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
@@ -201,7 +186,6 @@
         <option value="$PROJECT_DIR$/thymeleaf/first-thymeleaf-application/src/main/java/com/frontbackend/thymeleaf/controller/IndexController.java" />
         <option value="$PROJECT_DIR$/spring-boot/README.md" />
         <option value="$PROJECT_DIR$/thymeleaf/COOD.js" />
-        <option value="$PROJECT_DIR$/thymeleaf/README.md" />
         <option value="$PROJECT_DIR$/thymeleaf/pom.xml" />
         <option value="$PROJECT_DIR$/thymeleaf/thymeleaf-iteration/pom.xml" />
         <option value="$PROJECT_DIR$/thymeleaf/thymeleaf-iteration/src/main/java/com/frontbackend/thymeleaf/customers/model/Customer.java" />
@@ -213,6 +197,7 @@
         <option value="$PROJECT_DIR$/thymeleaf/thymeleaf-iteration/src/main/java/com/frontbackend/thymeleaf/customers/controller/CustomerController.java" />
         <option value="$PROJECT_DIR$/thymeleaf/thymeleaf-iteration/src/main/resources/templates/customers.html" />
         <option value="$PROJECT_DIR$/thymeleaf/thymeleaf-iteration/.gitignore" />
+        <option value="$PROJECT_DIR$/thymeleaf/README.md" />
       </list>
     </option>
   </component>
@@ -243,68 +228,6 @@
             <path>
               <item name="tutorials" type="b2602c69:ProjectViewProjectNode" />
               <item name="thymeleaf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tutorials" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thymeleaf" type="462c0819:PsiDirectoryNode" />
-              <item name="first-thymeleaf-application" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tutorials" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thymeleaf" type="462c0819:PsiDirectoryNode" />
-              <item name="first-thymeleaf-application" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tutorials" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thymeleaf" type="462c0819:PsiDirectoryNode" />
-              <item name="first-thymeleaf-application" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tutorials" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thymeleaf" type="462c0819:PsiDirectoryNode" />
-              <item name="first-thymeleaf-application" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tutorials" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thymeleaf" type="462c0819:PsiDirectoryNode" />
-              <item name="first-thymeleaf-application" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="thymeleaf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tutorials" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thymeleaf" type="462c0819:PsiDirectoryNode" />
-              <item name="first-thymeleaf-application" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="thymeleaf" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tutorials" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thymeleaf" type="462c0819:PsiDirectoryNode" />
-              <item name="first-thymeleaf-application" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tutorials" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thymeleaf" type="462c0819:PsiDirectoryNode" />
-              <item name="first-thymeleaf-application" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tutorials" type="b2602c69:ProjectViewProjectNode" />
@@ -483,12 +406,12 @@
       <workItem from="1560761819512" duration="13984000" />
       <workItem from="1560840657091" duration="35000" />
       <workItem from="1561047335547" duration="9130000" />
-      <workItem from="1561480897326" duration="6862000" />
+      <workItem from="1561480897326" duration="7005000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47046000" />
+    <option name="totallyTimeSpent" value="47189000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="124" y="67" width="1665" height="918" extended-state="0" />
@@ -783,16 +706,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thymeleaf/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="90">
-            <caret line="6" column="56" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/thymeleaf/first-thymeleaf-application/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -920,6 +833,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thymeleaf/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="105">
+            <caret line="7" column="92" selection-start-line="7" selection-start-column="92" selection-end-line="7" selection-end-column="92" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
