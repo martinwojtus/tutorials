@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Spring Boot Thymeleaf Application</title>
+</head>
+<body>
+<h1>List of Users</h1>
+<ul th:if="${#httpServletRequest.getParameter('hide') == null}">
+    <li th:each="user : ${users}">
+        <th:block th:text="${user.username}">Username</th:block>
+    </li>
+</ul>
+</body>
+</html>
