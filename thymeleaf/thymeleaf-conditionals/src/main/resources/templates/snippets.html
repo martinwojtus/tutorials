@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Spring Boot Thymeleaf Application</title>
+</head>
+<body>
+<h1>List of Snippets</h1>
+<table>
+    <tr>
+        <th>No</th>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Code</th>
+        <th>Language</th>
+    </tr>
+    <tr th:each="snippet, snippStat : ${snippets}" th:if="${snippet.published}">
+        <td th:text="${snippStat.index + 1}">1</td>
+        <td th:text="${snippet.title}">JavaScript example</td>
+        <td th:text="${snippet.author}">Doe</td>
+        <td th:text="${snippet.code}">alert('test');</td>
+        <td th:text="${snippet.language}">javascript</td>
+    </tr>
+</table>
+
+<div th:each="snippet : ${snippets}">
+    <span th:switch="${snippet.language}">
+        <p th:case="'javascript'">JavaScript Code:<th:block th:text="${snippet.code}">javascript code</th:block></p>
+        <p th:case="*">Other language</p>
+    </span>
+</div>
+</body>
+</html>

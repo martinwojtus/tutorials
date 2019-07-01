@@ -13,6 +13,7 @@
         <module>first-thymeleaf-application</module>
         <module>thymeleaf-iteration</module>
         <module>thymeleaf-lazy-retrieval</module>
+        <module>thymeleaf-conditionals</module>
     </modules>
 
     <properties>
