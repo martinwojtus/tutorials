@@ -9,6 +9,7 @@
         <module name="custom-banner" />
         <module name="first-thymeleaf-application" />
         <module name="hello-world" />
+        <module name="java-convertions" />
         <module name="thymeleaf-conditionals" />
         <module name="thymeleaf-iteration" />
         <module name="thymeleaf-lazy-retrieval" />
@@ -18,6 +19,8 @@
       <module name="custom-banner" target="1.8" />
       <module name="first-thymeleaf-application" target="1.8" />
       <module name="hello-world" target="1.8" />
+      <module name="java" target="1.8" />
+      <module name="java-convertions" target="1.8" />
       <module name="spring-boot" target="1.8" />
       <module name="thymeleaf" target="1.8" />
       <module name="thymeleaf-conditionals" target="1.8" />
