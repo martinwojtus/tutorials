@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Spring Boot Thymeleaf Application - IF-ELSE</title>
+</head>
+<body>
+
+<div th:switch="${condition1IsTrue}">
+    <p th:case="${true}">This should be rendered</p>
+    <p th:case="*">This will not be displayed</p>
+</div>
+
+<div th:if="${condition1IsTrue}">
+    <p>condition1IsTrue is TRUE</p>
+</div>
+<div th:unless="${condition1IsTrue}">
+    <p>FALSE</p>
+</div>
+
+<div th:if="${not condition2IsFalse}">
+    <p>not condition2IsFalse gives TRUE</p>
+</div>
+
+<div>
+    <p th:text="${condition1IsTrue} ? 'TRUE' : 'FALSE'">TRUE or FALSE</p>
+</div>
+
+</body>
+</html>

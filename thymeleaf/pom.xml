@@ -14,6 +14,7 @@
         <module>thymeleaf-iteration</module>
         <module>thymeleaf-lazy-retrieval</module>
         <module>thymeleaf-conditionals</module>
+        <module>thymeleaf-if-else</module>
     </modules>
 
     <properties>
