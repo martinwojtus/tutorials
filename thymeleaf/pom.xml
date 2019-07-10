@@ -15,6 +15,7 @@
         <module>thymeleaf-lazy-retrieval</module>
         <module>thymeleaf-conditionals</module>
         <module>thymeleaf-if-else</module>
+        <module>thymeleaf-data-attributes</module>
     </modules>
 
     <properties>

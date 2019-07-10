@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Spring Boot Thymeleaf Application - Data Attributes</title>
+</head>
+<body>
+<h1>List of Posts</h1>
+<article th:each="post : ${posts}">
+    <div th:attr="data-id=${post.id},data-title=${post.title},data-date=${#dates.format(post.date, 'yyyy-MM-dd')}">
+        <th:block th:text="${post.title}">Post title</th:block>
+    </div>
+</article>
+</body>
+</html>
