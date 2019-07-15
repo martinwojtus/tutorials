@@ -12,6 +12,7 @@
     <modules>
         <module>hello-world</module>
         <module>custom-banner</module>
+        <module>build-war</module>
     </modules>
 
     <properties>

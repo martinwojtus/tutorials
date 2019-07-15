@@ -1,0 +1,1 @@
+docker run -it -p 8080:8080 -v [... root path]/tutorials/spring-boot/build-war/target/build-war-0.0.1-SNAPSHOT.war/:/usr/local/tomcat/webapps/ROOT.war -v [... root path]/tutorials/spring-boot/build-war/target/build-war-0.0.1-SNAPSHOT:/usr/local/tomcat/webapps/ROOT tomcat

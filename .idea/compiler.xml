@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="build-war" />
         <module name="custom-banner" />
         <module name="first-thymeleaf-application" />
         <module name="hello-world" />
@@ -18,6 +19,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="build-war" target="1.8" />
       <module name="custom-banner" target="1.8" />
       <module name="first-thymeleaf-application" target="1.8" />
       <module name="hello-world" target="1.8" />
