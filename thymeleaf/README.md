@@ -10,3 +10,4 @@ Relevant Articles:
 * [Using conditions in Thymeleaf](https://frontbackend.com/thymeleaf/using-conditions-in-thymeleaf)
 * [How to use if-else in Thymeleaf with Spring Boot?](https://frontbackend.com/thymeleaf/how-to-implement-if-else-in-thymeleaf-with-spring-boot)
 * [Create data-* attribute with Thymeleaf](https://frontbackend.com/thymeleaf/create-data-attribute-with-thymeleaf)
+* [Thymeleaf utility methods for Lists](https://frontbackend.com/thymeleaf/thymeleaf-utility-methods-for-lists)
