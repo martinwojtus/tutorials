@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Spring Boot Thymeleaf Application - Utility Lists</title>
+</head>
+<body>
+
+<th:block th:if="${#lists.isEmpty(employees)}">List of employees is empty</th:block>
+
+<h1>List of Employees (number of employees: <th:block th:text="${#lists.size(employees)}">100</th:block>)</h1>
+<table>
+    <tr>
+        <th>No</th>
+        <th>Name</th>
+        <th>Salary</th>
+        <th>Position</th>
+    </tr>
+    <tr th:each="employee, stat : ${employees}">
+        <td th:text="${stat.index + 1}">1</td>
+        <td th:text="${employee.name}">John Doe</td>
+        <td th:text="${employee.salary}">12221</td>
+        <td th:text="${#strings.toLowerCase(employee.position.name())}">director</td>
+    </tr>
+</table>
+
+<h1>Sorted by salary</h1>
+<table>
+    <tr>
+        <th>No</th>
+        <th>Name</th>
+        <th>Salary</th>
+        <th>Position</th>
+    </tr>
+    <tr th:each="employee, stat : ${#lists.sort(employees, bySalary)}">
+        <td th:text="${stat.index + 1}">1</td>
+        <td th:text="${employee.name}">John Doe</td>
+        <td th:text="${employee.salary}">12221</td>
+        <td th:text="${#strings.toLowerCase(employee.position.name())}">director</td>
+    </tr>
+</table>
+</body>
+</html>
