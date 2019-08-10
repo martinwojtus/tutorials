@@ -16,6 +16,7 @@
       <module fileurl="file://$PROJECT_DIR$/thymeleaf/thymeleaf-iteration/thymeleaf-iteration.iml" filepath="$PROJECT_DIR$/thymeleaf/thymeleaf-iteration/thymeleaf-iteration.iml" />
       <module fileurl="file://$PROJECT_DIR$/thymeleaf/thymeleaf-lazy-retrieval/thymeleaf-lazy-retrieval.iml" filepath="$PROJECT_DIR$/thymeleaf/thymeleaf-lazy-retrieval/thymeleaf-lazy-retrieval.iml" />
       <module fileurl="file://$PROJECT_DIR$/thymeleaf/thymeleaf-utility-lists/thymeleaf-utility-lists.iml" filepath="$PROJECT_DIR$/thymeleaf/thymeleaf-utility-lists/thymeleaf-utility-lists.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thymeleaf/thymeleaf-utility-uris/thymeleaf-utility-uris.iml" filepath="$PROJECT_DIR$/thymeleaf/thymeleaf-utility-uris/thymeleaf-utility-uris.iml" />
     </modules>
   </component>
 </project>

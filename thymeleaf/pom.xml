@@ -17,6 +17,7 @@
         <module>thymeleaf-if-else</module>
         <module>thymeleaf-data-attributes</module>
         <module>thymeleaf-utility-lists</module>
+        <module>thymeleaf-utility-uris</module>
     </modules>
 
     <properties>

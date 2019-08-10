@@ -17,6 +17,7 @@
         <module name="thymeleaf-iteration" />
         <module name="thymeleaf-lazy-retrieval" />
         <module name="thymeleaf-utility-lists" />
+        <module name="thymeleaf-utility-uris" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -34,6 +35,7 @@
       <module name="thymeleaf-iteration" target="1.8" />
       <module name="thymeleaf-lazy-retrieval" target="1.8" />
       <module name="thymeleaf-utility-lists" target="1.8" />
+      <module name="thymeleaf-utility-uris" target="1.8" />
       <module name="tutorials" target="1.5" />
     </bytecodeTargetLevel>
   </component>

@@ -11,3 +11,5 @@ Relevant Articles:
 * [How to use if-else in Thymeleaf with Spring Boot?](https://frontbackend.com/thymeleaf/how-to-implement-if-else-in-thymeleaf-with-spring-boot)
 * [Create data-* attribute with Thymeleaf](https://frontbackend.com/thymeleaf/create-data-attribute-with-thymeleaf)
 * [Thymeleaf utility methods for Lists](https://frontbackend.com/thymeleaf/thymeleaf-utility-methods-for-lists)
+* [Thymeleaf utility methods for URI/URL](https://frontbackend.com/thymeleaf/thymeleaf-utility-methods-for-uri-url)
+* [Constructing URLs in Thymeleaf](https://frontbackend.com/thymeleaf/constructing-urls-in-thymeleaf)

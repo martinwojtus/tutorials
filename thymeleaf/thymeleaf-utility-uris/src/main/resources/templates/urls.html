@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Spring Boot Thymeleaf Application - Utility URI/URL</title>
+</head>
+<body>
+
+<a th:href="${#uris.escapePath('https://frontbackend.com/©!$%&()*+,-./:;<=>?@[\]^_`{|}~')}" th:text="${#uris.escapePath('https://frontbackend.com/©!$%&()*+,-./:;<=>?@[\]^_`{|}~')}"></a><br/>
+<a th:href="${'https://frontbackend.com/' + #uris.escapePathSegment('©!$%&()*+,-./:;<=>?@[\]^_`{|}~')}" th:text="${'https://frontbackend.com/' + #uris.escapePathSegment('©!$%&()*+,-./:;<=>?@[\]^_`{|}~')}"></a><br/>
+<a th:href="${'https://frontbackend.com#' + #uris.escapeFragmentId('©!$%&()*+,-./:;<=>?@[\]^_`{|}~')}" th:text="${'https://frontbackend.com#' + #uris.escapeFragmentId('©!$%&()*+,-./:;<=>?@[\]^_`{|}~')}"></a><br/>
+<a th:href="${'https://frontbackend.com?param=' + #uris.escapeQueryParam('©!$%&()*+,-./:;<=>?@[\]^_`{|}~')}" th:text="${'https://frontbackend.com?param=' + #uris.escapeQueryParam('©!$%&()*+,-./:;<=>?@[\]^_`{|}~')}"></a><br/>
+<a th:href="${'https://frontbackend.com/' + #uris.escapePathSegment('https://example.com')}" th:text="${'https://frontbackend.com/' + #uris.escapePathSegment('https://example.com')}"></a><br/>
+<a th:href="${'https://frontbackend.com?param=' + #uris.escapeQueryParam('https://example.com')}" th:text="${'https://frontbackend.com?param=' + #uris.escapeQueryParam('https://example.com')}"></a><br/>
+
+</body>
+</html>

@@ -2,21 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5770a66-72aa-48ec-ab41-56848558f4bb" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/thymeleaf/thymeleaf-utility-lists/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thymeleaf/thymeleaf-utility-lists/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thymeleaf/thymeleaf-utility-lists/src/main/java/com/frontbackend/thymeleaf/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thymeleaf/thymeleaf-utility-lists/src/main/java/com/frontbackend/thymeleaf/employee/controller/EmployeeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thymeleaf/thymeleaf-utility-lists/src/main/java/com/frontbackend/thymeleaf/employee/model/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thymeleaf/thymeleaf-utility-lists/src/main/java/com/frontbackend/thymeleaf/employee/model/EmployeePosition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thymeleaf/thymeleaf-utility-lists/src/main/java/com/frontbackend/thymeleaf/employee/service/EmployeeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thymeleaf/thymeleaf-utility-lists/src/main/resources/templates/employees.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thymeleaf/thymeleaf-utility-lists/thymeleaf-utility-lists.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thymeleaf/thymeleaf-utility-uris/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/thymeleaf/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/thymeleaf/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/thymeleaf/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thymeleaf/thymeleaf-lazy-retrieval/src/main/java/com/frontbackend/thymeleaf/users/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/thymeleaf/thymeleaf-lazy-retrieval/src/main/java/com/frontbackend/thymeleaf/users/model/User.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/spring-boot/hello-world/target/" />
@@ -33,6 +25,7 @@
     <ignored path="$PROJECT_DIR$/thymeleaf/thymeleaf-data-attributes/target/" />
     <ignored path="$PROJECT_DIR$/spring-boot/build-war/target/" />
     <ignored path="$PROJECT_DIR$/thymeleaf/thymeleaf-utility-lists/target/" />
+    <ignored path="$PROJECT_DIR$/thymeleaf/thymeleaf-utility-uris/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,37 +49,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="EmployeeController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thymeleaf/thymeleaf-utility-lists/src/main/java/com/frontbackend/thymeleaf/employee/controller/EmployeeController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="15" lean-forward="true" selection-end-line="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#342#343#0" expanded="true" />
-                <element signature="e#396#397#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/thymeleaf/thymeleaf-utility-lists/src/main/java/com/frontbackend/thymeleaf/Application.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="12" lean-forward="true" selection-end-line="12" />
+              <caret line="12" selection-end-line="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="customers.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thymeleaf/thymeleaf-iteration/src/main/resources/templates/customers.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -94,71 +64,90 @@
       <file leaf-file-name="employees.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/thymeleaf/thymeleaf-utility-lists/src/main/resources/templates/employees.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+            <state>
+              <caret selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thymeleaf/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="210">
+                <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/thymeleaf/thymeleaf-utility-lists/.gitignore">
+        <entry file="file://$PROJECT_DIR$/thymeleaf/thymeleaf-utility-uris/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state>
+              <caret lean-forward="true" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Employee.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thymeleaf/thymeleaf-utility-lists/src/main/java/com/frontbackend/thymeleaf/employee/model/Employee.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thymeleaf/thymeleaf-utility-uris/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="-151">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thymeleaf/thymeleaf-utility-uris/src/main/java/com/frontbackend/thymeleaf/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="64">
+              <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#252#253#0" expanded="true" />
+                <element signature="e#314#315#0" expanded="true" />
+                <element signature="e#445#446#0" expanded="true" />
+                <element signature="e#482#483#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EmployeePosition.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thymeleaf/thymeleaf-utility-lists/src/main/java/com/frontbackend/thymeleaf/employee/model/EmployeePosition.java">
+      <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot/hello-world/src/main/java/com/frontbackend/springboot/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" lean-forward="true" selection-end-line="10" />
+            <state relative-caret-position="120">
+              <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="14" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thymeleaf/thymeleaf-lazy-retrieval/src/main/java/com/frontbackend/thymeleaf/users/controller/UserController.java">
+      <file leaf-file-name="urls.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thymeleaf/thymeleaf-utility-uris/src/main/resources/templates/urls.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="25" column="49" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
-              <folding>
-                <element signature="e#931#932#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="120">
+              <caret line="8" column="190" lean-forward="true" selection-start-line="8" selection-start-column="190" selection-end-line="8" selection-end-column="190" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CustomerController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thymeleaf/thymeleaf-iteration/src/main/java/com/frontbackend/thymeleaf/customers/controller/CustomerController.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thymeleaf/thymeleaf-utility-lists/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="24" selection-end-column="5" />
+            <state relative-caret-position="195">
+              <caret line="22" column="18" selection-end-line="47" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EmployeeService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thymeleaf/thymeleaf-utility-lists/src/main/java/com/frontbackend/thymeleaf/employee/service/EmployeeService.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thymeleaf/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="330">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
         </entry>
@@ -188,11 +177,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/thymeleaf/thymeleaf-lazy-retrieval/pom.xml" />
-        <option value="$PROJECT_DIR$/thymeleaf/thymeleaf-lazy-retrieval/src/main/java/com/frontbackend/thymeleaf/Application.java" />
-        <option value="$PROJECT_DIR$/thymeleaf/thymeleaf-lazy-retrieval/src/main/java/com/frontbackend/thymeleaf/users/service/UserService.java" />
-        <option value="$PROJECT_DIR$/thymeleaf/thymeleaf-lazy-retrieval/src/main/java/com/frontbackend/thymeleaf/users/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/thymeleaf/first-thymeleaf-application/src/main/java/com/frontbackend/thymeleaf/controller/IndexController.java" />
         <option value="$PROJECT_DIR$/thymeleaf/thymeleaf-lazy-retrieval/.gitignore" />
         <option value="$PROJECT_DIR$/thymeleaf/thymeleaf-conditionals/pom.xml" />
         <option value="$PROJECT_DIR$/thymeleaf/thymeleaf-conditionals/src/main/java/com/frontbackend/thymeleaf/Application.java" />
@@ -222,7 +206,6 @@
         <option value="$PROJECT_DIR$/thymeleaf/thymeleaf-data-attributes/src/main/resources/templates/posts.html" />
         <option value="$PROJECT_DIR$/thymeleaf/thymeleaf-data-attributes/src/main/java/com/frontbackend/thymeleaf/posts/model/Post.java" />
         <option value="$PROJECT_DIR$/thymeleaf/thymeleaf-data-attributes/src/main/java/com/frontbackend/thymeleaf/posts/service/PostService.java" />
-        <option value="$PROJECT_DIR$/thymeleaf/README.md" />
         <option value="$PROJECT_DIR$/thymeleaf/thymeleaf-data-attributes/.gitignore" />
         <option value="$PROJECT_DIR$/spring-boot/build-war/src/main/java/com/frontbackend/springboot/Application.java" />
         <option value="$PROJECT_DIR$/spring-boot/build-war/.gitignore" />
@@ -239,6 +222,12 @@
         <option value="$PROJECT_DIR$/thymeleaf/thymeleaf-utility-lists/src/main/java/com/frontbackend/thymeleaf/employee/controller/EmployeeController.java" />
         <option value="$PROJECT_DIR$/thymeleaf/thymeleaf-utility-lists/src/main/resources/templates/employees.html" />
         <option value="$PROJECT_DIR$/thymeleaf/thymeleaf-utility-lists/src/main/java/com/frontbackend/thymeleaf/employee/model/EmployeePosition.java" />
+        <option value="$PROJECT_DIR$/thymeleaf/thymeleaf-utility-lists/.gitignore" />
+        <option value="$PROJECT_DIR$/thymeleaf/thymeleaf-utility-uris/pom.xml" />
+        <option value="$PROJECT_DIR$/thymeleaf/thymeleaf-utility-uris/src/main/java/com/frontbackend/thymeleaf/Application.java" />
+        <option value="$PROJECT_DIR$/thymeleaf/thymeleaf-utility-uris/src/main/resources/templates/urls.html" />
+        <option value="$PROJECT_DIR$/thymeleaf/README.md" />
+        <option value="$PROJECT_DIR$/thymeleaf/thymeleaf-utility-uris/.gitignore" />
       </list>
     </option>
   </component>
@@ -252,10 +241,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="94" />
-    <option name="y" value="83" />
-    <option name="width" value="1848" />
-    <option name="height" value="917" />
+    <option name="x" value="164" />
+    <option name="y" value="140" />
+    <option name="width" value="1614" />
+    <option name="height" value="844" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -271,30 +260,70 @@
             </path>
             <path>
               <item name="tutorials" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="custom-banner" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tutorials" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="hello-world" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tutorials" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="hello-world" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tutorials" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="hello-world" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tutorials" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="hello-world" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tutorials" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="hello-world" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tutorials" type="b2602c69:ProjectViewProjectNode" />
               <item name="thymeleaf" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tutorials" type="b2602c69:ProjectViewProjectNode" />
               <item name="thymeleaf" type="462c0819:PsiDirectoryNode" />
-              <item name="thymeleaf-data-attributes" type="462c0819:PsiDirectoryNode" />
+              <item name="thymeleaf-utility-lists" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tutorials" type="b2602c69:ProjectViewProjectNode" />
               <item name="thymeleaf" type="462c0819:PsiDirectoryNode" />
-              <item name="thymeleaf-data-attributes" type="462c0819:PsiDirectoryNode" />
+              <item name="thymeleaf-utility-lists" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tutorials" type="b2602c69:ProjectViewProjectNode" />
               <item name="thymeleaf" type="462c0819:PsiDirectoryNode" />
-              <item name="thymeleaf-data-attributes" type="462c0819:PsiDirectoryNode" />
+              <item name="thymeleaf-utility-lists" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tutorials" type="b2602c69:ProjectViewProjectNode" />
               <item name="thymeleaf" type="462c0819:PsiDirectoryNode" />
-              <item name="thymeleaf-data-attributes" type="462c0819:PsiDirectoryNode" />
+              <item name="thymeleaf-utility-lists" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -302,74 +331,7 @@
             <path>
               <item name="tutorials" type="b2602c69:ProjectViewProjectNode" />
               <item name="thymeleaf" type="462c0819:PsiDirectoryNode" />
-              <item name="thymeleaf-data-attributes" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="thymeleaf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tutorials" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thymeleaf" type="462c0819:PsiDirectoryNode" />
-              <item name="thymeleaf-data-attributes" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="thymeleaf" type="462c0819:PsiDirectoryNode" />
-              <item name="posts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tutorials" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thymeleaf" type="462c0819:PsiDirectoryNode" />
-              <item name="thymeleaf-data-attributes" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="thymeleaf" type="462c0819:PsiDirectoryNode" />
-              <item name="posts" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tutorials" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thymeleaf" type="462c0819:PsiDirectoryNode" />
-              <item name="thymeleaf-data-attributes" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="thymeleaf" type="462c0819:PsiDirectoryNode" />
-              <item name="posts" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tutorials" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thymeleaf" type="462c0819:PsiDirectoryNode" />
-              <item name="thymeleaf-iteration" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tutorials" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thymeleaf" type="462c0819:PsiDirectoryNode" />
-              <item name="thymeleaf-iteration" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tutorials" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thymeleaf" type="462c0819:PsiDirectoryNode" />
-              <item name="thymeleaf-iteration" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tutorials" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thymeleaf" type="462c0819:PsiDirectoryNode" />
-              <item name="thymeleaf-iteration" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tutorials" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thymeleaf" type="462c0819:PsiDirectoryNode" />
-              <item name="thymeleaf-iteration" type="462c0819:PsiDirectoryNode" />
+              <item name="thymeleaf-utility-lists" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -378,28 +340,7 @@
             <path>
               <item name="tutorials" type="b2602c69:ProjectViewProjectNode" />
               <item name="thymeleaf" type="462c0819:PsiDirectoryNode" />
-              <item name="thymeleaf-iteration" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="thymeleaf" type="462c0819:PsiDirectoryNode" />
-              <item name="customers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tutorials" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thymeleaf" type="462c0819:PsiDirectoryNode" />
-              <item name="thymeleaf-iteration" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="thymeleaf" type="462c0819:PsiDirectoryNode" />
-              <item name="customers" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tutorials" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thymeleaf" type="462c0819:PsiDirectoryNode" />
-              <item name="thymeleaf-iteration" type="462c0819:PsiDirectoryNode" />
+              <item name="thymeleaf-utility-lists" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -407,7 +348,7 @@
             <path>
               <item name="tutorials" type="b2602c69:ProjectViewProjectNode" />
               <item name="thymeleaf" type="462c0819:PsiDirectoryNode" />
-              <item name="thymeleaf-iteration" type="462c0819:PsiDirectoryNode" />
+              <item name="thymeleaf-utility-lists" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -416,15 +357,15 @@
             <path>
               <item name="tutorials" type="b2602c69:ProjectViewProjectNode" />
               <item name="thymeleaf" type="462c0819:PsiDirectoryNode" />
-              <item name="thymeleaf-utility-lists" type="462c0819:PsiDirectoryNode" />
+              <item name="thymeleaf-utility-uris" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -436,12 +377,12 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/thymeleaf/thymeleaf-utility-uris/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.17109375" />
+    <property name="project.structure.side.proportion" value="0.48689654" />
     <property name="settings.editor.selected.configurable" value="EclipseFormatter" />
   </component>
   <component name="RecentsManager">
@@ -475,7 +416,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application">
+  <component name="RunManager" selected="Spring Boot.Application (1)">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -493,29 +434,6 @@
       <option name="MAIN_CLASS_NAME" value="com.frontbackend.java.StringToIntConversionTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="StringToIntConversionTest.givenString_whenCallingIntegerDecode_shouldConvertToInt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-convertions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.frontbackend.java.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.frontbackend.java" />
-      <option name="MAIN_CLASS_NAME" value="com.frontbackend.java.StringToIntConversionTest" />
-      <option name="METHOD_NAME" value="givenString_whenCallingIntegerDecode_shouldConvertToInt" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -550,6 +468,16 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" />
       <option name="WORKING_DIRECTORY" />
+    </configuration>
+    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="thymeleaf-utility-uris" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.frontbackend.thymeleaf.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.frontbackend.thymeleaf.Application" />
     </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="thymeleaf-utility-lists" />
@@ -606,19 +534,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.StringToIntConversionTest.givenString_whenCallingIntegerDecode_shouldConvertToInt" />
       <item itemvalue="JUnit.StringToIntConversionTest" />
       <item itemvalue="Spring Boot.Thymeleaf - IF-ELSE" />
       <item itemvalue="Spring Boot.Thymeleaf - Data Attributes" />
       <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="Spring Boot.Application (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.Application (1)" />
         <item itemvalue="Spring Boot.Application" />
         <item itemvalue="Spring Boot.Thymeleaf - Data Attributes" />
         <item itemvalue="Spring Boot.Thymeleaf - IF-ELSE" />
         <item itemvalue="JUnit.StringToIntConversionTest" />
-        <item itemvalue="JUnit.StringToIntConversionTest.givenString_whenCallingIntegerDecode_shouldConvertToInt" />
       </list>
     </recent_temporary>
   </component>
@@ -655,7 +583,11 @@
       <workItem from="1563191889595" duration="74000" />
       <workItem from="1563212099090" duration="4483000" />
       <workItem from="1563648326532" duration="385000" />
-      <workItem from="1564919035767" duration="5754000" />
+      <workItem from="1564919035767" duration="7202000" />
+      <workItem from="1565003728283" duration="27000" />
+      <workItem from="1565026802202" duration="2405000" />
+      <workItem from="1565116711838" duration="604000" />
+      <workItem from="1565404721912" duration="3756000" />
     </task>
     <servers />
   </component>
@@ -671,14 +603,14 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87065000" />
+    <option name="totallyTimeSpent" value="95305000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="94" y="83" width="1848" height="917" extended-state="0" />
+    <frame x="164" y="140" width="1614" height="844" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.28967813" side_tool="true" visible="true" weight="0.28498727" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.29017857" side_tool="true" visible="true" weight="0.3884993" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Mongo Explorer" order="3" />
@@ -686,7 +618,7 @@
       <window_info id="Designer" order="2" />
       <window_info anchor="bottom" id="Statistic" order="7" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.04883463" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.05612245" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -698,10 +630,10 @@
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.71032184" visible="true" weight="0.28498727" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7098214" visible="true" weight="0.3884993" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27025527" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30994898" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -762,44 +694,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/thymeleaf/thymeleaf-iteration/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="14" selection-end-line="47" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thymeleaf/thymeleaf-iteration/src/main/resources/mockedCustomers.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thymeleaf/thymeleaf-lazy-retrieval/src/main/resources/templates/users.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thymeleaf/first-thymeleaf-application/src/main/resources/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="58" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thymeleaf/thymeleaf-if-else/src/main/java/com/frontbackend/thymeleaf/controller/HomeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thymeleaf/first-thymeleaf-application/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/thymeleaf/thymeleaf-if-else/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -866,16 +760,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thymeleaf/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="165">
-            <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/thymeleaf/thymeleaf-data-attributes/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -927,26 +811,10 @@
     <entry file="file://$PROJECT_DIR$/spring-boot/hello-world/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot/hello-world/src/main/java/com/frontbackend/springboot/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="15" />
-          <folding>
-            <element signature="e#400#401#0" expanded="true" />
-            <element signature="e#437#438#0" expanded="true" />
-            <element signature="e#483#484#0" expanded="true" />
-            <element signature="e#545#546#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot/build-war/src/main/java/com/frontbackend/springboot/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -954,9 +822,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -984,11 +849,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#252#253#0" expanded="true" />
-            <element signature="e#314#315#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -999,34 +859,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thymeleaf/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thymeleaf/thymeleaf-utility-lists/src/main/java/com/frontbackend/thymeleaf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/thymeleaf/thymeleaf-utility-lists/src/main/java/com/frontbackend/thymeleaf.java" />
     <entry file="file://$PROJECT_DIR$/thymeleaf/thymeleaf-lazy-retrieval/src/main/java/com/frontbackend/thymeleaf/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thymeleaf/thymeleaf-utility-lists/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -1062,9 +899,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="347">
           <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1072,9 +906,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="25" column="49" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
-          <folding>
-            <element signature="e#931#932#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1087,44 +918,85 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/thymeleaf/thymeleaf-iteration/src/main/resources/templates/customers.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
+        <state relative-caret-position="120">
           <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thymeleaf/thymeleaf-utility-lists/src/main/java/com/frontbackend/thymeleaf/employee/model/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/thymeleaf/thymeleaf-utility-lists/src/main/java/com/frontbackend/thymeleaf/employee/model/EmployeePosition.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-end-line="10" />
+          <caret line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/thymeleaf/thymeleaf-utility-lists/src/main/java/com/frontbackend/thymeleaf/employee/controller/EmployeeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="15" lean-forward="true" selection-end-line="30" />
+        <state relative-caret-position="120">
+          <caret line="15" selection-end-line="30" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#342#343#0" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thymeleaf/thymeleaf-utility-lists/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thymeleaf/thymeleaf-utility-lists/src/main/java/com/frontbackend/thymeleaf/employee/model/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/maven-4.0.0.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thymeleaf/thymeleaf-utility-lists/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="22" column="18" selection-end-line="47" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thymeleaf/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thymeleaf/thymeleaf-utility-uris/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-151">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/thymeleaf/thymeleaf-utility-lists/src/main/java/com/frontbackend/thymeleaf/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="12" lean-forward="true" selection-end-line="12" />
+          <caret line="12" selection-end-line="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1133,15 +1005,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/thymeleaf/thymeleaf-utility-lists/src/main/resources/templates/employees.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+        <state>
+          <caret selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thymeleaf/thymeleaf-utility-lists/.gitignore">
+    <entry file="file://$PROJECT_DIR$/spring-boot/hello-world/src/main/java/com/frontbackend/springboot/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="120">
+          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thymeleaf/thymeleaf-utility-uris/src/main/java/com/frontbackend/thymeleaf/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#445#446#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thymeleaf/thymeleaf-utility-uris/src/main/resources/templates/urls.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="190" lean-forward="true" selection-start-line="8" selection-start-column="190" selection-end-line="8" selection-end-column="190" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thymeleaf/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="210">
+            <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thymeleaf/thymeleaf-utility-uris/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
         </state>
       </provider>
     </entry>
@@ -1199,7 +1109,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>thymeleaf-lazy-retrieval</last-edited>
+          <last-edited>thymeleaf-utility-uris</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
