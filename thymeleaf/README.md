@@ -1,6 +1,6 @@
 ==================
-
 # Thymeleaf
+
 
 Relevant Articles:
 * [Spring Boot with Thymeleaf](https://frontbackend.com/thymeleaf/spring-boot-with-thymeleaf)
@@ -10,6 +10,26 @@ Relevant Articles:
 * [Using conditions in Thymeleaf](https://frontbackend.com/thymeleaf/using-conditions-in-thymeleaf)
 * [How to use if-else in Thymeleaf with Spring Boot?](https://frontbackend.com/thymeleaf/how-to-implement-if-else-in-thymeleaf-with-spring-boot)
 * [Create data-* attribute with Thymeleaf](https://frontbackend.com/thymeleaf/create-data-attribute-with-thymeleaf)
-* [Thymeleaf utility methods for Lists](https://frontbackend.com/thymeleaf/thymeleaf-utility-methods-for-lists)
-* [Thymeleaf utility methods for URI/URL](https://frontbackend.com/thymeleaf/thymeleaf-utility-methods-for-uri-url)
 * [Constructing URLs in Thymeleaf](https://frontbackend.com/thymeleaf/constructing-urls-in-thymeleaf)
+
+Utility Methods:
+* [#uris](https://frontbackend.com/thymeleaf/thymeleaf-utility-methods-for-uri-url)
+* [#arrays](https://frontbackend.com/thymeleaf/thymeleaf-utility-methods-for-arrays)
+* [#bools](https://frontbackend.com/thymeleaf/thymeleaf-utility-methods-for-booleans)
+* [#objects](https://frontbackend.com/thymeleaf/thymeleaf-utility-methods-for-objects)
+* [#strings](https://frontbackend.com/thymeleaf/thymeleaf-utility-methods-for-strings)
+* [#numbers](https://frontbackend.com/thymeleaf/thymeleaf-utility-methods-for-numbers)
+* [#calendars](https://frontbackend.com/thymeleaf/thymeleaf-utility-methods-for-calendar)
+* [#dates](https://frontbackend.com/thymeleaf/thymeleaf-utility-methods-for-dates)
+* [#lists](https://frontbackend.com/thymeleaf/thymeleaf-utility-methods-for-lists)
+* [#messages](https://frontbackend.com/thymeleaf/thymeleaf-utility-methods-for-messages)
+
+Q&A
+* [How to use if-else in Thymeleaf with Spring Boot?](https://frontbackend.com/thymeleaf/how-to-implement-if-else-in-thymeleaf-with-spring-boot)
+* [How to set up a JavaScript variable from Spring model using Thymeleaf?](https://frontbackend.com/thymeleaf/how-to-set-up-a-javascript-variable-from-spring-model-by-using-thymeleaf)
+* [How to process Thymeleaf variable as HTML code?](https://frontbackend.com/thymeleaf/how-to-process-thymeleaf-variable-as-html-code)
+* [How to handle null values in Thymeleaf?](https://frontbackend.com/thymeleaf/how-to-handle-null-values-in-thymeleaf)
+* [How to dynamically add/remove a CSS class in Thymeleaf?](https://frontbackend.com/thymeleaf/how-to-dynamically-add-remove-a-css-class-in-thymeleaf)
+* [How to create custom attribute in Thymeleaf](https://frontbackend.com/thymeleaf/how-to-create-custom-attribute-in-thymeleaf)
+* [How to check if a variable is defined in Thymeleaf](https://frontbackend.com/thymeleaf/how-to-check-if-a-variable-is-defined-in-thymeleaf)
+
