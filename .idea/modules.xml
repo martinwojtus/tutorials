@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring-boot/hello-world/hello-world.iml" filepath="$PROJECT_DIR$/spring-boot/hello-world/hello-world.iml" />
       <module fileurl="file://$PROJECT_DIR$/java/java.iml" filepath="$PROJECT_DIR$/java/java.iml" />
       <module fileurl="file://$PROJECT_DIR$/java/java-convertions/java-convertions.iml" filepath="$PROJECT_DIR$/java/java-convertions/java-convertions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java/java-io/java-io.iml" filepath="$PROJECT_DIR$/java/java-io/java-io.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot/spring-boot.iml" filepath="$PROJECT_DIR$/spring-boot/spring-boot.iml" />
       <module fileurl="file://$PROJECT_DIR$/thymeleaf/thymeleaf.iml" filepath="$PROJECT_DIR$/thymeleaf/thymeleaf.iml" />
       <module fileurl="file://$PROJECT_DIR$/thymeleaf/thymeleaf-conditionals/thymeleaf-conditionals.iml" filepath="$PROJECT_DIR$/thymeleaf/thymeleaf-conditionals/thymeleaf-conditionals.iml" />
