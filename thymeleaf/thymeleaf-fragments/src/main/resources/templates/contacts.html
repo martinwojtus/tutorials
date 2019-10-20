@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Spring Boot Thymeleaf Application - Fragments - Contacts</title>
+</head>
+<body>
+
+<table cellspacing="1" cellpadding="1" border="1">
+    <thead>
+    <tr>
+        <th>No</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Type</th>
+        <th>Members</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="contact, stat : ${contacts}">
+        <th:block th:replace="_tables :: contactRow(${stat}, ${contact})">row</th:block>
+    </tr>
+    </tbody>
+</table>
+
+</body>
+</html>

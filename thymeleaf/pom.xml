@@ -18,6 +18,7 @@
         <module>thymeleaf-data-attributes</module>
         <module>thymeleaf-utility-lists</module>
         <module>thymeleaf-utility-uris</module>
+        <module>thymeleaf-fragments</module>
     </modules>
 
     <properties>

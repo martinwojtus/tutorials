@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Spring Boot Thymeleaf Application - Fragments Tables</title>
+</head>
+<body>
+
+<table>
+    <tr th:fragment="contactRow(stat, row)">
+        <td th:text="${stat.count}">1</td>
+        <td th:text="${row.name}">Name</td>
+        <td th:text="${row.email}">Email</td>
+        <td th:text="${row.type.name() == 'INDIVIDUAL' ? 'Individual' : 'Group'}"></td>
+        <td>
+            <th:block th:if="${row.type.name() == 'GROUP'}">
+                <p th:each="member : ${row.members}" th:text="${member.email}"></p>
+            </th:block>
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>

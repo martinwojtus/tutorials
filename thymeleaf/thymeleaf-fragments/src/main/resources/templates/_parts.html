@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Spring Boot Thymeleaf Application - Fragments Parts</title>
+</head>
+<body>
+
+<div th:fragment="header">
+    <h1>Thymeleaf Fragments</h1>
+</div>
+
+<div th:fragment="menu">
+    <a href="/" class="active">Home</a>
+    <a href="#blog">Blog</a>
+    <a href="/contacts">Contacts</a>
+    <a href="#about">About</a>
+</div>
+
+<div class="panel">
+    This is a sample panel
+</div>
+
+<footer th:fragment="footer">
+    <p>&copy; 2019 FrontBackend.com</p>
+</footer>
+
+</body>
+</html>

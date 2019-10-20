@@ -14,6 +14,7 @@
         <module name="java-io" />
         <module name="thymeleaf-conditionals" />
         <module name="thymeleaf-data-attributes" />
+        <module name="thymeleaf-fragments" />
         <module name="thymeleaf-if-else" />
         <module name="thymeleaf-iteration" />
         <module name="thymeleaf-lazy-retrieval" />
@@ -33,6 +34,7 @@
       <module name="thymeleaf" target="1.8" />
       <module name="thymeleaf-conditionals" target="1.8" />
       <module name="thymeleaf-data-attributes" target="1.8" />
+      <module name="thymeleaf-fragments" target="1.8" />
       <module name="thymeleaf-if-else" target="1.8" />
       <module name="thymeleaf-iteration" target="1.8" />
       <module name="thymeleaf-lazy-retrieval" target="1.8" />

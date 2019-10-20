@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Spring Boot Thymeleaf Application - Fragments Main</title>
+</head>
+<body>
+
+<header th:insert="_parts :: header"> </header>
+<div th:replace="_parts :: menu"></div>
+<div th:replace="_parts :: div.panel"></div>
+<div th:replace="_parts :: footer"></div>
+
+</body>
+</html>
