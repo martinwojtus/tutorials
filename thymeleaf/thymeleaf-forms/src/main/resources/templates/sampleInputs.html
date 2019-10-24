@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Spring Boot Thymeleaf Application - Form Samples - Inputs</title>
+</head>
+<body>
+
+<form th:action="@{/sampleInputs}" th:object="${sampleInputs}" method="post">
+
+    <div>
+        <label>Date:</label>
+        <input type="text" th:field="*{dateField}" placeholder="yyyy-MM-dd" />
+    </div>
+    <div>
+        <label>Integer:</label>
+        <input type="number" th:field="*{numberField}" placeholder="integer" />
+    </div>
+    <div>
+        <label>Double:</label>
+        <input type="text" th:field="*{doubleField}" placeholder="double" />
+    </div>
+    <div>
+        <label>String:</label>
+        <input type="text" th:field="*{textField}" placeholder="string" />
+    </div>
+    <div>
+        <label>Color:</label>
+        <input type="color" th:field="*{colorField}" placeholder="color" />
+    </div>
+    <div>
+        <label>Date time:</label>
+        <input type="datetime-local" th:field="*{dateTimeField}" placeholder="date" />
+    </div>
+
+    <input type="submit" value="Submit"/>
+</form>
+
+</body>
+</html>

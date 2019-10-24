@@ -19,6 +19,7 @@
         <module>thymeleaf-utility-lists</module>
         <module>thymeleaf-utility-uris</module>
         <module>thymeleaf-fragments</module>
+        <module>thymeleaf-forms</module>
     </modules>
 
     <properties>

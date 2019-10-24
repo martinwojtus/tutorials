@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Spring Boot Thymeleaf Application - Form Samples - Checkboxes</title>
+</head>
+<body>
+
+<form th:action="@{/sampleRadioButtons}" th:object="${sampleRadioButtons}" method="post">
+
+    <ul>
+        <li th:each="color : ${allSampleColors}">
+            <input type="radio" th:field="*{color}" th:value="${color}" />
+            <label th:for="${#ids.prev('color')}" th:text="${color}">RED</label>
+        </li>
+    </ul>
+
+    <input type="submit" value="Submit"/>
+</form>
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Spring Boot Thymeleaf Application - Form Samples - Checkboxes</title>
+</head>
+<body>
+
+<form th:action="@{/sampleDropdowns}" th:object="${sampleDropdowns}" method="post">
+
+    <div>
+        <label>Select one color:</label>
+        <select th:field="*{color}">
+            <option th:each="color : ${allSampleColors}"
+                    th:value="${color}"
+                    th:text="${color}">RED
+            </option>
+        </select>
+    </div>
+
+    <div>
+        <label>Select colors:</label>
+        <select th:field="*{colors}" multiple>
+            <option th:each="color : ${allSampleColors}"
+                    th:value="${color}"
+                    th:text="${color}">RED
+            </option>
+        </select>
+    </div>
+
+    <input type="submit" value="Submit"/>
+</form>
+
+</body>
+</html>

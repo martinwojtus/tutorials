@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Spring Boot Thymeleaf Application - Form Samples - Checkboxes</title>
+</head>
+<body>
+
+<form th:action="@{/sampleCheckboxes}" th:object="${sampleCheckboxes}" method="post">
+
+    <ul>
+        <li th:each="color : ${allSampleColors}">
+            <input type="checkbox" th:field="*{colors}" th:value="${color}"/>
+            <label th:for="${#ids.prev('colors')}" th:text="${color}">RED</label>
+        </li>
+    </ul>
+
+    <div>
+        <label th:for="${#ids.next('first')}">First:</label>
+        <input type="checkbox" th:field="*{first}" />
+    </div>
+    <div>
+        <label th:for="${#ids.next('second')}">Second:</label>
+        <input type="checkbox" th:field="*{second}"/>
+    </div>
+
+    <input type="submit" value="Submit"/>
+</form>
+
+</body>
+</html>
