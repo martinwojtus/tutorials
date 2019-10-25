@@ -34,4 +34,5 @@ Q&A
 * [How to create custom attribute in Thymeleaf](https://frontbackend.com/thymeleaf/how-to-create-custom-attribute-in-thymeleaf)
 * [How to check if a variable is defined in Thymeleaf](https://frontbackend.com/thymeleaf/how-to-check-if-a-variable-is-defined-in-thymeleaf)
 * [How to work with Fragments in Thymeleaf](https://frontbackend.com/thymeleaf/how-to-work-with-fragments-in-thymeleaf)
+* [How to loop through Map in Thymeleaf](https://frontbackend.com/thymeleaf/how-to-loop-through-map-in-thymeleaf)
 

@@ -19,6 +19,7 @@
         <module name="thymeleaf-if-else" />
         <module name="thymeleaf-iteration" />
         <module name="thymeleaf-lazy-retrieval" />
+        <module name="thymeleaf-map-iteration" />
         <module name="thymeleaf-utility-lists" />
         <module name="thymeleaf-utility-uris" />
       </profile>
@@ -40,6 +41,7 @@
       <module name="thymeleaf-if-else" target="1.8" />
       <module name="thymeleaf-iteration" target="1.8" />
       <module name="thymeleaf-lazy-retrieval" target="1.8" />
+      <module name="thymeleaf-map-iteration" target="1.8" />
       <module name="thymeleaf-utility-lists" target="1.8" />
       <module name="thymeleaf-utility-uris" target="1.8" />
       <module name="tutorials" target="1.5" />

@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Spring Boot Thymeleaf Application - Iteration over Map</title>
+</head>
+<body>
+
+<h1>Cars by color</h1>
+<table>
+    <tr>
+        <th>No</th>
+        <th>Color</th>
+        <th>Cars</th>
+    </tr>
+    <tr th:each="entry, stat : ${carsByColor}">
+        <td th:text="${stat.index + 1}">1</td>
+        <td th:text="${entry.key}">color</td>
+        <td>
+            <table>
+                <tr th:each="car : ${entry.value}">
+                    <td th:text="${car.vin}"></td>
+                    <td th:text="${car.model}"></td>
+                    <td th:text="${#dates.format(car.productionDate, 'yyyy-MM-dd')}"></td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+
+<h1>Cars by production year</h1>
+<table>
+    <tr>
+        <th>No</th>
+        <th>Year</th>
+        <th>Cars</th>
+    </tr>
+    <tr th:each="entry, stat : ${carsByProductionYear}">
+        <td th:text="${stat.index + 1}">1</td>
+        <td th:text="${entry.key}">production year</td>
+        <td>
+            <table>
+                <tr th:each="car : ${entry.value}">
+                    <td th:text="${car.vin}"></td>
+                    <td th:text="${car.model}"></td>
+                    <td th:text="${car.color}"></td>
+                    <td th:text="${#dates.format(car.productionDate, 'yyyy-MM-dd')}"></td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>

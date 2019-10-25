@@ -20,6 +20,7 @@
         <module>thymeleaf-utility-uris</module>
         <module>thymeleaf-fragments</module>
         <module>thymeleaf-forms</module>
+        <module>thymeleaf-map-iteration</module>
     </modules>
 
     <properties>
