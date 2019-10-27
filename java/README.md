@@ -1,4 +1,5 @@
 ==================
+
 Relevant Articles:
 
 # Java
@@ -10,3 +11,5 @@ Relevant Articles:
 
 * [Java IO - Write to file](https://frontbackend.com/java/java-io-write-to-file)
 * [Java IO - Create new file](https://frontbackend.com/java/java-io-create-new-file)
+* [Java IO - Append content to file](https://frontbackend.com/java/java-io-append-content-to-file)
+
