@@ -14,6 +14,7 @@
         <module name="java-io" />
         <module name="thymeleaf-conditionals" />
         <module name="thymeleaf-data-attributes" />
+        <module name="thymeleaf-enums" />
         <module name="thymeleaf-forms" />
         <module name="thymeleaf-fragments" />
         <module name="thymeleaf-if-else" />
@@ -36,6 +37,7 @@
       <module name="thymeleaf" target="1.8" />
       <module name="thymeleaf-conditionals" target="1.8" />
       <module name="thymeleaf-data-attributes" target="1.8" />
+      <module name="thymeleaf-enums" target="1.8" />
       <module name="thymeleaf-forms" target="1.8" />
       <module name="thymeleaf-fragments" target="1.8" />
       <module name="thymeleaf-if-else" target="1.8" />

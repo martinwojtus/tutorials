@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Spring Boot Thymeleaf Application - Enums</title>
+</head>
+<body>
+
+<h1 th:text="#{home.selected}">Selected planet</h1>
+
+<div>
+    <label th:text="#{home.title}">Title:</label>
+    <span th:text="${home.title}"></span>
+</div>
+
+<div>
+    <label th:text="#{home.planet}">Planet:</label>
+    <span th:text="#{${'planet.' + home.planet}}"></span>
+</div>
+
+<br/>
+
+<a th:href="@{/}">back</a>
+
+</body>
+</html>

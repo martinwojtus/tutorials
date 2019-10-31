@@ -21,6 +21,7 @@
         <module>thymeleaf-fragments</module>
         <module>thymeleaf-forms</module>
         <module>thymeleaf-map-iteration</module>
+        <module>thymeleaf-enums</module>
     </modules>
 
     <properties>

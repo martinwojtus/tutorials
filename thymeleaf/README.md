@@ -12,6 +12,7 @@ Relevant Articles:
 * [Create data-* attribute with Thymeleaf](https://frontbackend.com/thymeleaf/create-data-attribute-with-thymeleaf)
 * [Constructing URLs in Thymeleaf](https://frontbackend.com/thymeleaf/constructing-urls-in-thymeleaf)
 * [Working with Forms in Thymeleaf](https://frontbackend.com/thymeleaf/working-with-forms-in-thymeleaf)
+* [Using Enums in Thymeleaf](https://frontbackend.com/thymeleaf/using-enums-in-thymeleaf)
 
 Utility Methods:
 * [#uris](https://frontbackend.com/thymeleaf/thymeleaf-utility-methods-for-uri-url)

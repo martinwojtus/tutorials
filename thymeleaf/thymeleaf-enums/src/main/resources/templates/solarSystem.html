@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Spring Boot Thymeleaf Application - Enums</title>
+</head>
+<body>
+
+<form th:action="@{/selectedPlanet}" method="post" th:object="${home}">
+    <input th:field="*{title}" placeholder="Title"/>
+
+    <select name="planet" th:field="*{planet}">
+        <option th:each="planet : ${T(com.frontbackend.thymeleaf.enums.model.Planet).values()}"
+                th:value="${planet}" th:text="#{${'planet.' + planet}}"></option>
+    </select>
+
+    <input type="submit" th:value="#{submit.button}"/>
+</form>
+
+
+<th:block th:each="planet : ${T(com.frontbackend.thymeleaf.enums.model.Planet).values()}">
+    <span th:if="${planet == T(com.frontbackend.thymeleaf.enums.model.Planet).EARTH}"
+          th:text="${planet + ' = our home'}"></span>
+</th:block>
+
+<th:block th:each="planet : ${T(com.frontbackend.thymeleaf.enums.model.Planet).values()}">
+    <span th:if="${planet.name() == 'EARTH'}" th:text="${planet + ' = our home'}"></span>
+</th:block>
+
+<th:block th:each="planet : ${T(com.frontbackend.thymeleaf.enums.model.Planet).values()}">
+    <div>
+        <span th:text="${planet}"></span>
+        <th:block th:switch="${planet}">
+            <span th:case="${T(com.frontbackend.thymeleaf.enums.model.Planet).MERCURY}"> - First planet from the sun</span>
+            <span th:case="${T(com.frontbackend.thymeleaf.enums.model.Planet).VENUS}"> - Second planet from the sun</span>
+            <span th:case="${T(com.frontbackend.thymeleaf.enums.model.Planet).EARTH}"> - Third planet from the sun</span>
+            <span th:case="${T(com.frontbackend.thymeleaf.enums.model.Planet).MARS}"> - Fourth planet from the sun</span>
+            <span th:case="${T(com.frontbackend.thymeleaf.enums.model.Planet).JUPITER}"> - Sixth planet from the sun</span>
+            <span th:case="${T(com.frontbackend.thymeleaf.enums.model.Planet).SATURN}"> - Seventh planet from the sun</span>
+            <span th:case="${T(com.frontbackend.thymeleaf.enums.model.Planet).URANUS}"> - Eighth planet from the sun</span>
+            <span th:case="${T(com.frontbackend.thymeleaf.enums.model.Planet).NEPTUNE}"> - Ninth planet from the sun</span>
+        </th:block>
+    </div>
+</th:block>
+
+<br/>
+
+<a th:href="@{/(lang=en)}">EN</a> |
+<a th:href="@{/(lang=es)}">ES</a>
+
+</body>
+</html>
