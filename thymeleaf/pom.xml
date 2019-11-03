@@ -22,6 +22,7 @@
         <module>thymeleaf-forms</module>
         <module>thymeleaf-map-iteration</module>
         <module>thymeleaf-enums</module>
+        <module>thymeleaf-environment-parameters</module>
     </modules>
 
     <properties>

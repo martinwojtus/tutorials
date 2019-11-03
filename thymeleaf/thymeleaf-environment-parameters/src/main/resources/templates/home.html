@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Spring Boot Thymeleaf Application - Environment Properties</title>
+</head>
+<body>
+
+<div th:if="${!#arrays.isEmpty(@environment.getActiveProfiles()) && #arrays.contains(@environment.getActiveProfiles(), 'production')}">
+
+    This is the production profile
+
+</div>
+
+<div>
+    <p th:text="${@environment.getProperty('some.string.property')}"></p>
+    <p th:text="${@environment.getProperty('some.boolean.property')}"></p>
+    <p th:text="${@environment.getProperty('some.int.property')}"></p>
+</div>
+
+<section th:if="${@environment.getProperty('some.boolean.property')}">
+    Section visible
+</section>
+
+</body>
+</html>
