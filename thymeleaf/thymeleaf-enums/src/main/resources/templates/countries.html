@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Spring Boot Thymeleaf Application - Enums</title>
+</head>
+<body>
+
+<form th:action="@{/selectedCountry}" method="post" th:object="${birthplace}">
+    <select name="country" th:field="*{country}">
+        <option th:each="country : ${T(com.frontbackend.thymeleaf.enums.model.Country).values()}"
+                th:value="${country}" th:text="${country.displayName}"></option>
+    </select>
+
+    <input type="submit" value="Submit"/>
+</form>
+
+</body>
+</html>

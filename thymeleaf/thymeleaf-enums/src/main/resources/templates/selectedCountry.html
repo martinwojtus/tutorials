@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Spring Boot Thymeleaf Application - Enums</title>
+</head>
+<body>
+
+<h1>Selected country</h1>
+
+<div>
+    <span th:text="${birthplace.country.displayName}"></span>
+</div>
+
+<br/>
+
+<a th:href="@{/countries}">back</a>
+
+</body>
+</html>

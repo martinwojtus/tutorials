@@ -37,4 +37,5 @@ Q&A
 * [How to work with Fragments in Thymeleaf](https://frontbackend.com/thymeleaf/how-to-work-with-fragments-in-thymeleaf)
 * [How to loop through Map in Thymeleaf](https://frontbackend.com/thymeleaf/how-to-loop-through-map-in-thymeleaf)
 * [How to get environment in Thymeleaf](https://frontbackend.com/thymeleaf/how-to-get-environment-in-thymeleaf)
+* [How to display all enum values in Thymeleaf](https://frontbackend.com/thymeleaf/how-to-display-all-enum-values-in-thymeleaf)
 
