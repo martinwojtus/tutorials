@@ -2,13 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5770a66-72aa-48ec-ab41-56848558f4bb" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/thymeleaf/thymeleaf-enums/src/main/java/com/frontbackend/thymeleaf/enums/controller/CountryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thymeleaf/thymeleaf-enums/src/main/java/com/frontbackend/thymeleaf/enums/model/Birthplace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thymeleaf/thymeleaf-enums/src/main/java/com/frontbackend/thymeleaf/enums/model/Country.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thymeleaf/thymeleaf-enums/src/main/resources/templates/countries.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thymeleaf/thymeleaf-enums/src/main/resources/templates/selectedCountry.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/java-convertions/src/main/java/com/frontbackend/java/ConvertIntArrayToIntStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/java-convertions/src/main/java/com/frontbackend/java/ConvertListToStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/java-convertions/src/main/java/com/frontbackend/java/ConvertStreamToList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/java-convertions/src/main/java/com/frontbackend/java/ConvertStringToIntUsingGuava.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/java-convertions/src/main/java/com/frontbackend/java/ConvertStringToIntUsingParseInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/java-convertions/src/main/java/com/frontbackend/java/ConvertStringToIntUsingValueOf.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thymeleaf/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/thymeleaf/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontBackEndFormat.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FrontBackEndFormat.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/java-convertions/java-convertions.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java/java-convertions/java-convertions.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/java-convertions/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java/java-convertions/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/java-convertions/src/main/java/com/frontbackend/java/StringToIntConversion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/spring-boot/hello-world/target/" />
@@ -55,68 +61,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="solarSystem.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thymeleaf/thymeleaf-enums/src/main/resources/templates/solarSystem.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="44" lean-forward="true" selection-end-line="51" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Home.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thymeleaf/thymeleaf-enums/src/main/java/com/frontbackend/thymeleaf/enums/model/Home.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/thymeleaf/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="333">
-                <caret line="39" column="46" selection-start-line="39" selection-start-column="46" selection-end-line="39" selection-end-column="46" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Birthplace.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thymeleaf/thymeleaf-enums/src/main/java/com/frontbackend/thymeleaf/enums/model/Birthplace.java">
+      <file leaf-file-name="ConvertStringToIntUsingParseInt.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java/java-convertions/src/main/java/com/frontbackend/java/ConvertStringToIntUsingParseInt.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="9" column="23" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="9" column="96" selection-start-line="9" selection-start-column="96" selection-end-line="9" selection-end-column="96" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SolarSystemController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thymeleaf/thymeleaf-enums/src/main/java/com/frontbackend/thymeleaf/enums/controller/SolarSystemController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="29" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="20" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CountryController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thymeleaf/thymeleaf-enums/src/main/java/com/frontbackend/thymeleaf/enums/controller/CountryController.java">
+      <file leaf-file-name="ConvertListToStream.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/java-convertions/src/main/java/com/frontbackend/java/ConvertListToStream.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -124,42 +82,67 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="selectedCountry.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thymeleaf/thymeleaf-enums/src/main/resources/templates/selectedCountry.html">
+      <file leaf-file-name="ConvertStreamToList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/java-convertions/src/main/java/com/frontbackend/java/ConvertStreamToList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="selectedPlanet.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thymeleaf/thymeleaf-enums/src/main/resources/templates/selectedPlanet.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="42" selection-end-line="25" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Country.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thymeleaf/thymeleaf-enums/src/main/java/com/frontbackend/thymeleaf/enums/model/Country.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="30" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="30" />
+            <state relative-caret-position="150">
+              <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
               <folding>
-                <element signature="e#145#146#0" expanded="true" />
-                <element signature="e#191#192#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="countries.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thymeleaf/thymeleaf-enums/src/main/resources/templates/countries.html">
+      <file leaf-file-name="FrontBackEndFormat.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FrontBackEndFormat.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="41" lean-forward="true" selection-end-line="18" selection-end-column="7" />
+            <state relative-caret-position="508">
+              <caret line="571" column="38" selection-start-line="571" selection-start-column="38" selection-end-line="571" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/java-convertions/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConvertIntArrayToIntStream.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/java-convertions/src/main/java/com/frontbackend/java/ConvertIntArrayToIntStream.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thymeleaf/thymeleaf-conditionals/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="34" column="21" selection-start-line="29" selection-start-column="1" selection-end-line="34" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -180,6 +163,7 @@
       <find>80</find>
       <find>[INFO]</find>
       <find>from(</find>
+      <find>100</find>
     </findStrings>
     <replaceStrings>
       <replace>120</replace>
@@ -191,18 +175,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/thymeleaf/thymeleaf-forms/src/main/java/com/frontbackend/thymeleaf/forms/sample/model/SampleColor.java" />
-        <option value="$PROJECT_DIR$/thymeleaf/thymeleaf-forms/src/main/java/com/frontbackend/thymeleaf/forms/sample/model/SampleCheckboxes.java" />
-        <option value="$PROJECT_DIR$/thymeleaf/thymeleaf-forms/src/main/resources/templates/sampleCheckboxes.html" />
-        <option value="$PROJECT_DIR$/thymeleaf/thymeleaf-forms/src/main/resources/templates/sampleInputs.html" />
-        <option value="$PROJECT_DIR$/thymeleaf/thymeleaf-forms/src/main/java/com/frontbackend/thymeleaf/forms/sample/model/SampleRadioButtons.java" />
-        <option value="$PROJECT_DIR$/thymeleaf/thymeleaf-forms/src/main/java/com/frontbackend/thymeleaf/forms/sample/controller/SampleController.java" />
-        <option value="$PROJECT_DIR$/thymeleaf/thymeleaf-forms/src/main/resources/templates/sampleRadioButtons.html" />
-        <option value="$PROJECT_DIR$/thymeleaf/thymeleaf-forms/src/main/java/com/frontbackend/thymeleaf/forms/sample/model/SampleDropdowns.java" />
-        <option value="$PROJECT_DIR$/thymeleaf/thymeleaf-forms/src/main/resources/templates/sampleDropdowns.html" />
-        <option value="$PROJECT_DIR$/thymeleaf/thymeleaf-forms/.gitignore" />
-        <option value="$PROJECT_DIR$/thymeleaf/thymeleaf-fragments/src/main/resources/templates/_parts.html" />
-        <option value="$PROJECT_DIR$/thymeleaf/thymeleaf-map-iteration/pom.xml" />
         <option value="$PROJECT_DIR$/thymeleaf/thymeleaf-map-iteration/src/main/java/com/frontbackend/thymeleaf/Application.java" />
         <option value="$PROJECT_DIR$/thymeleaf/thymeleaf-map-iteration/src/main/java/com/frontbackend/thymeleaf/model/Customer.java" />
         <option value="$PROJECT_DIR$/thymeleaf/thymeleaf-map-iteration/src/main/java/com/frontbackend/thymeleaf/model/Color.java" />
@@ -242,6 +214,18 @@
         <option value="$PROJECT_DIR$/thymeleaf/thymeleaf-enums/src/main/resources/templates/countries.html" />
         <option value="$PROJECT_DIR$/thymeleaf/thymeleaf-enums/src/main/java/com/frontbackend/thymeleaf/enums/controller/CountryController.java" />
         <option value="$PROJECT_DIR$/thymeleaf/README.md" />
+        <option value="$PROJECT_DIR$/java/java-convertions/src/main/java/com/frontbackend/java/StringToIntConversion.java" />
+        <option value="$PROJECT_DIR$/java/java-convertions/src/main/java/com/frontbackend/java/ConvertStringToInt.java" />
+        <option value="$PROJECT_DIR$/java/java-convertions/src/main/java/com/frontbackend/java/ConvertStringToIntUsingParseInt.java" />
+        <option value="$PROJECT_DIR$/java/java-convertions/src/main/java/com/frontbackend/java/ConvertStringToIntUsingValueOf.java" />
+        <option value="$PROJECT_DIR$/java/java-convertions/src/main/java/com/frontbackend/java/ConvertStringToIntUsingGuava.java" />
+        <option value="$PROJECT_DIR$/java/java-convertions/pom.xml" />
+        <option value="$PROJECT_DIR$/java/pom.xml" />
+        <option value="$PROJECT_DIR$/FrontBackEndFormat.xml" />
+        <option value="$PROJECT_DIR$/java/java-convertions/src/main/java/com/frontbackend/java/ConvertIntArrayToIntStream.java" />
+        <option value="$PROJECT_DIR$/java/java-convertions/src/main/java/com/frontbackend/java/ConvertListToStream.java" />
+        <option value="$PROJECT_DIR$/java/java-convertions/src/main/java/com/frontbackend/java/ConvertStreamToList.java" />
+        <option value="$PROJECT_DIR$/java/java-convertions/src/main/java/com/frontbackend/java/Main.java" />
       </list>
     </option>
   </component>
@@ -255,106 +239,88 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="142" />
-    <option name="y" value="77" />
-    <option name="width" value="1720" />
-    <option name="height" value="909" />
+    <option name="x" value="166" />
+    <option name="y" value="97" />
+    <option name="width" value="1684" />
+    <option name="height" value="935" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
+            <path>
+              <item name="tutorials" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tutorials" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="java-convertions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tutorials" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="java-convertions" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tutorials" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="java-convertions" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tutorials" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="java-convertions" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tutorials" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="java-convertions" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tutorials" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="java-io" type="462c0819:PsiDirectoryNode" />
+            </path>
             <path>
               <item name="tutorials" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tutorials" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="hello-world" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tutorials" type="b2602c69:ProjectViewProjectNode" />
               <item name="thymeleaf" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tutorials" type="b2602c69:ProjectViewProjectNode" />
               <item name="thymeleaf" type="462c0819:PsiDirectoryNode" />
-              <item name="thymeleaf-enums" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tutorials" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thymeleaf" type="462c0819:PsiDirectoryNode" />
-              <item name="thymeleaf-enums" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tutorials" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thymeleaf" type="462c0819:PsiDirectoryNode" />
-              <item name="thymeleaf-enums" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tutorials" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thymeleaf" type="462c0819:PsiDirectoryNode" />
-              <item name="thymeleaf-enums" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tutorials" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thymeleaf" type="462c0819:PsiDirectoryNode" />
-              <item name="thymeleaf-enums" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="enums" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tutorials" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thymeleaf" type="462c0819:PsiDirectoryNode" />
-              <item name="thymeleaf-enums" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="enums" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tutorials" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thymeleaf" type="462c0819:PsiDirectoryNode" />
-              <item name="thymeleaf-enums" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="enums" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tutorials" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thymeleaf" type="462c0819:PsiDirectoryNode" />
-              <item name="thymeleaf-enums" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tutorials" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thymeleaf" type="462c0819:PsiDirectoryNode" />
-              <item name="thymeleaf-enums" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="thymeleaf-conditionals" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -367,13 +333,13 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cr" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17109375" />
     <property name="project.structure.side.proportion" value="0.48689654" />
-    <property name="settings.editor.selected.configurable" value="EclipseFormatter" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -406,7 +372,62 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application (3)">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="ConvertListToStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.frontbackend.java.ConvertListToStream" />
+      <module name="java-convertions" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.frontbackend.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="ConvertStreamToList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.frontbackend.java.ConvertStreamToList" />
+      <module name="java-convertions" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.frontbackend.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="ConvertStringToIntUsingParseInt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.frontbackend.java.ConvertStringToIntUsingParseInt" />
+      <module name="java-convertions" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.frontbackend.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="ConvertStringToIntUsingValueOf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.frontbackend.java.ConvertStringToIntUsingValueOf" />
+      <module name="java-convertions" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.frontbackend.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.frontbackend.java.Main" />
+      <module name="java-convertions" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.frontbackend.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -436,56 +457,6 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="WORKING_DIRECTORY" />
     </configuration>
-    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="thymeleaf-forms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.frontbackend.thymeleaf.forms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.frontbackend.thymeleaf.forms.Application" />
-    </configuration>
-    <configuration name="Application (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="thymeleaf-map-iteration" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.frontbackend.thymeleaf.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.frontbackend.thymeleaf.Application" />
-    </configuration>
-    <configuration name="Application (3)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="thymeleaf-enums" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.frontbackend.thymeleaf.enums.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.frontbackend.thymeleaf.enums.Application" />
-    </configuration>
-    <configuration name="Application (4)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="thymeleaf-environment-parameters" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.frontbackend.environment.paramameters.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.frontbackend.environment.paramameters.Application" />
-    </configuration>
-    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="thymeleaf-fragments" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.frontbackend.thymeleaf.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.frontbackend.thymeleaf.Application" />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -509,19 +480,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.Application" />
-      <item itemvalue="Spring Boot.Application (1)" />
-      <item itemvalue="Spring Boot.Application (2)" />
-      <item itemvalue="Spring Boot.Application (3)" />
-      <item itemvalue="Spring Boot.Application (4)" />
+      <item itemvalue="Application.ConvertStringToIntUsingParseInt" />
+      <item itemvalue="Application.ConvertStringToIntUsingValueOf" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.ConvertListToStream" />
+      <item itemvalue="Application.ConvertStreamToList" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.Application (3)" />
-        <item itemvalue="Spring Boot.Application (4)" />
-        <item itemvalue="Spring Boot.Application (2)" />
-        <item itemvalue="Spring Boot.Application (1)" />
-        <item itemvalue="Spring Boot.Application" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ConvertStreamToList" />
+        <item itemvalue="Application.ConvertListToStream" />
+        <item itemvalue="Application.ConvertStringToIntUsingValueOf" />
+        <item itemvalue="Application.ConvertStringToIntUsingParseInt" />
       </list>
     </recent_temporary>
   </component>
@@ -582,7 +553,13 @@
       <workItem from="1572394732536" duration="1762000" />
       <workItem from="1572455520877" duration="14655000" />
       <workItem from="1572779900518" duration="10187000" />
-      <workItem from="1572901325622" duration="3558000" />
+      <workItem from="1572901325622" duration="4220000" />
+      <workItem from="1572946304687" duration="769000" />
+      <workItem from="1573134599537" duration="2696000" />
+      <workItem from="1573225136329" duration="96000" />
+      <workItem from="1573372298783" duration="3214000" />
+      <workItem from="1573375591773" duration="28000" />
+      <workItem from="1573375641144" duration="6828000" />
     </task>
     <servers />
   </component>
@@ -598,14 +575,14 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="185834000" />
+    <option name="totallyTimeSpent" value="200127000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="142" y="77" width="1720" height="909" extended-state="0" />
+    <frame x="166" y="97" width="1684" height="935" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.29749104" side_tool="true" visible="true" weight="0.31876606" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.2985348" side_tool="true" visible="true" weight="0.3955224" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Mongo Explorer" order="3" />
@@ -613,7 +590,7 @@
       <window_info id="Designer" order="2" />
       <window_info anchor="bottom" id="Statistic" order="7" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.07706093" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.081807084" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -625,10 +602,10 @@
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.702509" visible="true" weight="0.31876606" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7014652" visible="true" weight="0.3955224" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25507766" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26678878" />
       <window_info anchor="bottom" id="Run with VisualVM" order="8" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
@@ -651,7 +628,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="9" />
+      <option name="time" value="14" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -691,103 +668,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/thymeleaf/thymeleaf-iteration/src/main/java/com/frontbackend/thymeleaf/customers/service/CustomerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thymeleaf/thymeleaf-map-iteration/src/main/java/com/frontbackend/thymeleaf/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="43" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thymeleaf/thymeleaf-iteration/src/main/java/com/frontbackend/thymeleaf/customers/controller/CustomerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///opt/jdk/jdk1.8.0_161/src.zip!/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1545">
-          <caret line="395" column="10" selection-start-line="395" selection-start-column="10" selection-end-line="395" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thymeleaf/thymeleaf-iteration/src/main/resources/templates/customers.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thymeleaf/thymeleaf-map-iteration/src/main/resources/templates/maps.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thymeleaf/thymeleaf-map-iteration/src/main/java/com/frontbackend/thymeleaf/service/CarService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="53" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thymeleaf/thymeleaf-map-iteration/src/main/java/com/frontbackend/thymeleaf/model/Car.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="13" column="9" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thymeleaf/thymeleaf-map-iteration/src/main/java/com/frontbackend/thymeleaf/model/Color.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="10" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thymeleaf/thymeleaf-map-iteration/src/main/java/com/frontbackend/thymeleaf/controller/MapController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thymeleaf/thymeleaf-map-iteration/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/java-io/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/java-io/src/main/java/com/frontbackend/java/io/write/WriteToFileUsingBufferedWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" column="5" selection-start-line="8" selection-start-column="3" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/java-io/src/main/java/com/frontbackend/java/io/create/CreateFileUsingFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="17" column="5" selection-start-line="7" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/java-io/src/main/java/com/frontbackend/java/io/append/AppendToFileUsingFileOutputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="25" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -879,28 +759,28 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/thymeleaf/thymeleaf-enums/src/main/resources/messages.properties">
-      <provider editor-type-id="ResourceBundle" />
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="12" selection-end-column="29" />
         </state>
       </provider>
+      <provider editor-type-id="ResourceBundle" />
     </entry>
     <entry file="file://$PROJECT_DIR$/thymeleaf/thymeleaf-enums/src/main/resources/messages_en_US.properties">
-      <provider editor-type-id="ResourceBundle" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="25" selection-end-line="12" selection-end-column="29" />
         </state>
       </provider>
+      <provider editor-type-id="ResourceBundle" />
     </entry>
     <entry file="file://$PROJECT_DIR$/thymeleaf/thymeleaf-enums/src/main/resources/messages_es.properties">
-      <provider editor-type-id="ResourceBundle" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="19" selection-end-line="12" selection-end-column="36" />
         </state>
       </provider>
+      <provider editor-type-id="ResourceBundle" />
     </entry>
     <entry file="file://$PROJECT_DIR$/thymeleaf/thymeleaf-enums/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
@@ -930,9 +810,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -940,9 +817,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -950,10 +824,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#291#292#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -985,23 +855,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thymeleaf/thymeleaf-enums/src/main/resources/templates/solarSystem.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="44" lean-forward="true" selection-end-line="51" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thymeleaf/thymeleaf-enums/src/main/java/com/frontbackend/thymeleaf/enums/model/Home.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/thymeleaf/thymeleaf-enums/src/main/resources/templates/selectedPlanet.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1011,21 +864,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/thymeleaf/thymeleaf-enums/src/main/java/com/frontbackend/thymeleaf/enums/model/Birthplace.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
+        <state relative-caret-position="105">
           <caret line="9" column="23" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/thymeleaf/thymeleaf-enums/src/main/java/com/frontbackend/thymeleaf/enums/controller/SolarSystemController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="29" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="20" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="240">
+          <caret line="20" column="29" selection-start-line="19" selection-start-column="8" selection-end-line="20" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -1033,20 +880,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="30" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="30" />
-          <folding>
-            <element signature="e#145#146#0" expanded="true" />
-            <element signature="e#191#192#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/thymeleaf/thymeleaf-enums/src/main/java/com/frontbackend/thymeleaf/enums/controller/CountryController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="165">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1060,17 +900,127 @@
     <entry file="file://$PROJECT_DIR$/thymeleaf/thymeleaf-enums/src/main/resources/templates/countries.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="14" column="41" lean-forward="true" selection-end-line="18" selection-end-column="7" />
+          <caret line="14" column="41" selection-end-line="18" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/thymeleaf/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="333">
+          <first_editor relative-caret-position="360">
             <caret line="39" column="46" selection-start-line="39" selection-start-column="46" selection-end-line="39" selection-end-column="46" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thymeleaf/thymeleaf-enums/src/main/java/com/frontbackend/thymeleaf/enums/model/Home.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thymeleaf/thymeleaf-enums/src/main/resources/templates/solarSystem.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/java-convertions/src/main/java/com/frontbackend/java/StringToIntConversion.java" />
+    <entry file="file://$PROJECT_DIR$/java/java-convertions/src/main/java/com/frontbackend/java/ConvertStringToIntUsingGuava.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/java-convertions/src/main/java/com/frontbackend/java/ConvertStringToIntUsingValueOf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot/hello-world/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thymeleaf/thymeleaf-conditionals/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="21" selection-start-line="29" selection-start-column="1" selection-end-line="34" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontBackEndFormat.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="508">
+          <caret line="571" column="38" selection-start-line="571" selection-start-column="38" selection-end-line="571" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/java-convertions/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/java-convertions/src/main/java/com/frontbackend/java/ConvertIntArrayToIntStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/java-convertions/src/main/java/com/frontbackend/java/ConvertListToStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/java-convertions/src/main/java/com/frontbackend/java/ConvertStreamToList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/java-convertions/src/main/java/com/frontbackend/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/java-convertions/src/main/java/com/frontbackend/java/ConvertStringToIntUsingParseInt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="96" selection-start-line="9" selection-start-column="96" selection-end-line="9" selection-end-column="96" />
         </state>
       </provider>
     </entry>
@@ -1128,7 +1078,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>thymeleaf-enums</last-edited>
+          <last-edited>java</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

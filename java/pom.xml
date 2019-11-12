@@ -21,6 +21,7 @@
         <guava.version>28.0-jre</guava.version>
         <assertj.version>3.9.1</assertj.version>
         <commons.io.version>2.6</commons.io.version>
+        <lombok.version>1.18.2</lombok.version>
     </properties>
 
 </project>
