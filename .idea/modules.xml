@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/java/java-io/java-io.iml" filepath="$PROJECT_DIR$/java/java-io/java-io.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot/spring-boot.iml" filepath="$PROJECT_DIR$/spring-boot/spring-boot.iml" />
       <module fileurl="file://$PROJECT_DIR$/thymeleaf/thymeleaf.iml" filepath="$PROJECT_DIR$/thymeleaf/thymeleaf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thymeleaf/thymeleaf-bootstrap-input-date/thymeleaf-bootstrap-input-date.iml" filepath="$PROJECT_DIR$/thymeleaf/thymeleaf-bootstrap-input-date/thymeleaf-bootstrap-input-date.iml" />
       <module fileurl="file://$PROJECT_DIR$/thymeleaf/thymeleaf-conditionals/thymeleaf-conditionals.iml" filepath="$PROJECT_DIR$/thymeleaf/thymeleaf-conditionals/thymeleaf-conditionals.iml" />
       <module fileurl="file://$PROJECT_DIR$/thymeleaf/thymeleaf-data-attributes/thymeleaf-data-attributes.iml" filepath="$PROJECT_DIR$/thymeleaf/thymeleaf-data-attributes/thymeleaf-data-attributes.iml" />
       <module fileurl="file://$PROJECT_DIR$/thymeleaf/thymeleaf-enums/thymeleaf-enums.iml" filepath="$PROJECT_DIR$/thymeleaf/thymeleaf-enums/thymeleaf-enums.iml" />

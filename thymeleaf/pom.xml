@@ -23,6 +23,7 @@
         <module>thymeleaf-map-iteration</module>
         <module>thymeleaf-enums</module>
         <module>thymeleaf-environment-parameters</module>
+        <module>thymeleaf-bootstrap-input-date</module>
     </modules>
 
     <properties>
