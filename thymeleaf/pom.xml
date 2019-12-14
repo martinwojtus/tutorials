@@ -24,6 +24,7 @@
         <module>thymeleaf-enums</module>
         <module>thymeleaf-environment-parameters</module>
         <module>thymeleaf-bootstrap-input-date</module>
+        <module>thymeleaf-bootstrap-radio-button</module>
     </modules>
 
     <properties>
