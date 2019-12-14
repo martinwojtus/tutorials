@@ -17,6 +17,7 @@ Relevant Articles:
 Web Components:
 * [Spring Boot + Bootstrap + Thymeleaf Input Date](https://frontbackend.com/thymeleaf/spring-boot-bootstrap-thymeleaf-input-date)
 * [Spring Boot + Bootstrap + Thymeleaf Radio Button](https://frontbackend.com/thymeleaf/spring-boot-bootstrap-thymeleaf-radio-button)
+* [Spring Boot + Bootstrap + Thymeleaf Select Option](https://frontbackend.com/thymeleaf/spring-boot-bootstrap-thymeleaf-select-option)
 
 Utility Methods:
 * [#uris](https://frontbackend.com/thymeleaf/thymeleaf-utility-methods-for-uri-url)
