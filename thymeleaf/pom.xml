@@ -26,6 +26,7 @@
         <module>thymeleaf-bootstrap-input-date</module>
         <module>thymeleaf-bootstrap-radio-button</module>
         <module>thymeleaf-bootstrap-select-option</module>
+        <module>thymeleaf-bootstrap-autocomplete-input</module>
     </modules>
 
     <properties>
