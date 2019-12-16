@@ -27,6 +27,7 @@
         <module>thymeleaf-bootstrap-radio-button</module>
         <module>thymeleaf-bootstrap-select-option</module>
         <module>thymeleaf-bootstrap-autocomplete-input</module>
+        <module>thymeleaf-bootstrap-datatable</module>
     </modules>
 
     <properties>

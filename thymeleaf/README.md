@@ -19,6 +19,7 @@ Web Components:
 * [Spring Boot + Bootstrap + Thymeleaf Radio Button](https://frontbackend.com/thymeleaf/spring-boot-bootstrap-thymeleaf-radio-button)
 * [Spring Boot + Bootstrap + Thymeleaf Select Option](https://frontbackend.com/thymeleaf/spring-boot-bootstrap-thymeleaf-select-option)
 * [Spring Boot + Bootstrap + Thymeleaf Autocomplete](https://frontbackend.com/thymeleaf/spring-boot-bootstrap-thymeleaf-autocomplete)
+* [Spring Boot + Bootstrap + Thymeleaf Datatable](https://frontbackend.com/thymeleaf/spring-boot-bootstrap-thymeleaf-datatable)
 
 Utility Methods:
 * [#uris](https://frontbackend.com/thymeleaf/thymeleaf-utility-methods-for-uri-url)
