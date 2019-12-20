@@ -28,6 +28,7 @@
         <module>thymeleaf-bootstrap-select-option</module>
         <module>thymeleaf-bootstrap-autocomplete-input</module>
         <module>thymeleaf-bootstrap-datatable</module>
+        <module>thymeleaf-bootstrap-upload-file</module>
     </modules>
 
     <properties>
