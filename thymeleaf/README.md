@@ -21,6 +21,7 @@ Web Components:
 * [Spring Boot + Bootstrap + Thymeleaf Autocomplete](https://frontbackend.com/thymeleaf/spring-boot-bootstrap-thymeleaf-autocomplete)
 * [Spring Boot + Bootstrap + Thymeleaf Datatable](https://frontbackend.com/thymeleaf/spring-boot-bootstrap-thymeleaf-datatable)
 * [Spring Boot + Bootstrap + Thymeleaf Upload File](https://frontbackend.com/spring-boot/spring-boot-bootstrap-thymeleaf-upload-file)
+* [Spring Boot + Bootstrap + Thymeleaf Price Range Slider](https://frontbackend.com/thymeleaf/spring-boot-bootstrap-thymeleaf-price-range-slider)
 
 Utility Methods:
 * [#uris](https://frontbackend.com/thymeleaf/thymeleaf-utility-methods-for-uri-url)

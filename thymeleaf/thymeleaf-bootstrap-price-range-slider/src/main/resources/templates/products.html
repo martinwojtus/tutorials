@@ -1,0 +1,11 @@
+<div class="row" th:fragment="list" xmlns:th="http://www.thymeleaf.org">
+    <div th:each="product, stat : ${products}" class="col-sm-4">
+        <div class="card mb-3">
+            <div class="card-body">
+                <h5 class="card-title" th:text="${product.name}">Product name</h5>
+                <p class="card-text" th:text="${product.price}">Price</p>
+                <a href="#" class="btn btn-primary">Buy</a>
+            </div>
+        </div>
+    </div>
+</div>

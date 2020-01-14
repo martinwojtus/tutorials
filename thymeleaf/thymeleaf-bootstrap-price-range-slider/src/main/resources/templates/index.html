@@ -1,0 +1,93 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Spring Boot Thymeleaf Application - Bootstrap Price Range Slider</title>
+
+    <link th:rel="stylesheet" th:href="@{assets/bootstrap-slider/css/bootstrap-slider.css}"/>
+    <link th:rel="stylesheet" th:href="@{webjars/bootstrap/4.0.0-2/css/bootstrap.min.css} "/>
+    <link th:rel="stylesheet" th:href="@{webjars/font-awesome/5.11.2/css/all.css} "/>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+    <div class="container">
+        <a class="navbar-brand" href="/">Thymeleaf - Bootstrap Price Range Slider</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+
+    <div class="row">
+        <div class="col">
+
+            <form method="post" th:object="${priceRange}">
+                <div class="form-group mt-5">
+                    <label for="priceRange">Filter products by price</label>
+                    <div class="form-control">
+                        <b class="mr-2">€ 10</b> <input id="priceRange" type="text" class="span2" value=""
+                                                        data-slider-min="1"
+                                                        data-slider-max="100" data-slider-step="2"
+                                                        data-slider-value="[5,100]" data-slider-tooltip="show"/> <b
+                            class="ml-2">€ 100</b>
+                        <input type="hidden" id="rangeMin" th:field="*{min}"/>
+                        <input type="hidden" id="rangeMax" th:field="*{max}"/>
+                    </div>
+                </div>
+
+                <div id="products" class="mb-3">
+                    <div th:replace="products :: list"></div>
+                </div>
+
+                <button class="btn btn-primary" type="submit">Submit form</button>
+            </form>
+
+        </div>
+    </div>
+</div>
+
+
+<script th:src="@{/webjars/jquery/jquery.min.js}"></script>
+<script th:src="@{/webjars/popper.js/umd/popper.min.js}"></script>
+<script th:src="@{/webjars/bootstrap/js/bootstrap.min.js}"></script>
+<script th:rel="stylesheet" th:src="@{assets/bootstrap-slider/bootstrap-slider.js}"></script>
+
+<script>
+    $("#priceRange").slider({});
+    $("#priceRange").on("slideStop", function (stopEvent) {
+        var range = stopEvent.value;
+        $("#rangeMin").val(range[0]);
+        $("#rangeMax").val(range[1]);
+
+        $.get("/products?min=" + range[0] + "&max=" + range[1], function (data) {
+            $("#products").html(data);
+        });
+    });
+</script>
+
+</body>
+</html>

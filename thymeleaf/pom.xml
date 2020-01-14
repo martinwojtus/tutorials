@@ -29,6 +29,8 @@
         <module>thymeleaf-bootstrap-autocomplete-input</module>
         <module>thymeleaf-bootstrap-datatable</module>
         <module>thymeleaf-bootstrap-upload-file</module>
+        <module>thymeleaf-bootstrap-price-range-slider</module>
+        <module>thymeleaf-bootstrap-slider</module>
     </modules>
 
     <properties>

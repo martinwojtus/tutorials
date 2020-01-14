@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Classic Dad Hat",
+    "material": "100% Cotton",
+    "brand": "Yupoong",
+    "price": 13.95
+  },
+  {
+    "name": "Vintage Cap",
+    "material": "100% Cotton",
+    "brand": "Otto Cap",
+    "price": 25.20
+  },
+  {
+    "name": "Unstructured Cap",
+    "material": "100% Cotton",
+    "brand": "Bayside",
+    "price": 35.58
+  },
+  {
+    "name": "Champion Dad Hat",
+    "material": "100% Cotton",
+    "brand": "Flexfit",
+    "price": 46.87
+  },
+  {
+    "name": "Vintage Dad Hat",
+    "material": "100% Cotton",
+    "brand": "Champion",
+    "price": 54.95
+  },
+  {
+    "name": "Distressed Hat",
+    "material": "100% Cotton",
+    "brand": "Beechfield",
+    "price": 63.31
+  },
+  {
+    "name": "Classic Snapback",
+    "material": "100% Cotton",
+    "brand": "Yupoong",
+    "price": 72.95
+  },
+  {
+    "name": "Flat Bill Cap",
+    "material": "100% Cotton",
+    "brand": "Otto Cap",
+    "price": 82.25
+  }
+]
