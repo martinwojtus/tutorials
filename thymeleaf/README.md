@@ -13,6 +13,7 @@ Relevant Articles:
 * [Constructing URLs in Thymeleaf](https://frontbackend.com/thymeleaf/constructing-urls-in-thymeleaf)
 * [Working with Forms in Thymeleaf](https://frontbackend.com/thymeleaf/working-with-forms-in-thymeleaf)
 * [Using Enums in Thymeleaf](https://frontbackend.com/thymeleaf/using-enums-in-thymeleaf)
+* [Working with local variables in Thymeleaf](https://frontbackend.com/thymeleaf/working-with-local-variables-in-thymeleaf)
 
 Web Components:
 * [Spring Boot + Bootstrap + Thymeleaf Input Date](https://frontbackend.com/thymeleaf/spring-boot-bootstrap-thymeleaf-input-date)
@@ -47,4 +48,5 @@ Q&A
 * [How to loop through Map in Thymeleaf](https://frontbackend.com/thymeleaf/how-to-loop-through-map-in-thymeleaf)
 * [How to get environment in Thymeleaf](https://frontbackend.com/thymeleaf/how-to-get-environment-in-thymeleaf)
 * [How to display all enum values in Thymeleaf](https://frontbackend.com/thymeleaf/how-to-display-all-enum-values-in-thymeleaf)
+* [How to add checked attribute to input conditionally in Thymeleaf](https://frontbackend.com/thymeleaf/how-to-add-checked-attribute-to-input-conditionally-in-thymeleaf)
 
