@@ -23,6 +23,7 @@ Web Components:
 * [Spring Boot + Bootstrap + Thymeleaf Datatable](https://frontbackend.com/thymeleaf/spring-boot-bootstrap-thymeleaf-datatable)
 * [Spring Boot + Bootstrap + Thymeleaf Upload File](https://frontbackend.com/spring-boot/spring-boot-bootstrap-thymeleaf-upload-file)
 * [Spring Boot + Bootstrap + Thymeleaf Price Range Slider](https://frontbackend.com/thymeleaf/spring-boot-bootstrap-thymeleaf-price-range-slider)
+* [Spring Boot + Bootstrap + Thymeleaf Slider](https://frontbackend.com/thymeleaf/spring-boot-bootstrap-thymeleaf-slider)
 
 Utility Methods:
 * [#uris](https://frontbackend.com/thymeleaf/thymeleaf-utility-methods-for-uri-url)
@@ -49,4 +50,5 @@ Q&A
 * [How to get environment in Thymeleaf](https://frontbackend.com/thymeleaf/how-to-get-environment-in-thymeleaf)
 * [How to display all enum values in Thymeleaf](https://frontbackend.com/thymeleaf/how-to-display-all-enum-values-in-thymeleaf)
 * [How to add checked attribute to input conditionally in Thymeleaf](https://frontbackend.com/thymeleaf/how-to-add-checked-attribute-to-input-conditionally-in-thymeleaf)
+* [How to show text if the attribute and property exists in Thymeleaf](https://frontbackend.com/thymeleaf/how-to-show-text-if-the-attribute-and-property-exists-in-thymeleaf)
 

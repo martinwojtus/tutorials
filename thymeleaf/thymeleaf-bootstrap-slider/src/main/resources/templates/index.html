@@ -1,0 +1,117 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Spring Boot Thymeleaf Application - Bootstrap Slider</title>
+
+    <link th:rel="stylesheet" th:href="@{assets/bootstrap-slider/css/bootstrap-slider.css}"/>
+    <link th:rel="stylesheet" th:href="@{webjars/bootstrap/4.0.0-2/css/bootstrap.min.css} "/>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+    <div class="container">
+        <a class="navbar-brand" href="/">Thymeleaf - Bootstrap Slider</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+
+    <div class="row">
+        <div class="col">
+            <h2 class="mt-5">Programming skills</h2>
+
+            <form method="post" th:object="${skills}">
+                <div class="ml-2">
+                    <div class="form-group mt-3">
+                        <input id="java" type="text" th:field="*{java}" data-slider-min="1" data-slider-max="10"
+                               data-slider-step="1"
+                               data-slider-value="1" class="skill"/>
+                        <span class="ml-2">JAVA: <strong id="javaVal">1</strong></span>
+                    </div>
+
+                    <div class="form-group mt-3">
+                        <input id="css" type="text" th:field="*{css}" data-slider-min="1" data-slider-max="10"
+                               data-slider-step="1"
+                               data-slider-value="1" class="skill"/>
+                        <span class="ml-2">CSS: <strong id="cssVal">1</strong></span>
+                    </div>
+
+                    <div class="form-group mt-3">
+                        <input id="angular" type="text" th:field="*{angular}" data-slider-min="1" data-slider-max="10"
+                               data-slider-step="1"
+                               data-slider-value="1" class="skill"/>
+                        <span class="ml-2">Angular: <strong id="angularVal">1</strong></span>
+                    </div>
+
+                    <div class="form-group mt-3">
+                        <input id="python" type="text" th:field="*{python}" data-slider-min="1" data-slider-max="10"
+                               data-slider-step="1"
+                               data-slider-value="1" class="skill"/>
+                        <span class="ml-2">Python: <strong id="pythonVal">1</strong></span>
+                    </div>
+
+                    <div class="form-group mt-3">
+                        <input id="react" type="text" th:field="*{react}" data-slider-min="1" data-slider-max="10"
+                               data-slider-step="1"
+                               data-slider-value="1" class="skill"/>
+                        <span class="ml-2">React: <strong id="reactVal">1</strong></span>
+                    </div>
+
+                    <div class="form-group mt-3">
+                        <input id="go" type="text" th:field="*{go}" data-slider-min="1" data-slider-max="10"
+                               data-slider-step="1"
+                               data-slider-value="1" class="skill"/>
+                        <span class="ml-2">Go: <strong id="goVal">1</strong></span>
+                    </div>
+                </div>
+
+                <button class="btn btn-primary" type="submit">Submit form</button>
+            </form>
+
+        </div>
+    </div>
+</div>
+
+
+<script th:src="@{/webjars/jquery/jquery.min.js}"></script>
+<script th:src="@{/webjars/popper.js/umd/popper.min.js}"></script>
+<script th:src="@{/webjars/bootstrap/js/bootstrap.min.js}"></script>
+<script th:rel="stylesheet" th:src="@{assets/bootstrap-slider/bootstrap-slider.js}"></script>
+
+<script>
+    $(".skill").slider();
+    $(".skill").on("slide", function (slideEvt) {
+        $("#" + slideEvt.target.id + "Val").text(slideEvt.value);
+    });
+    $(".skill").on("change", function (slideEvt) {
+        $("#" + slideEvt.target.id + "Val").text(slideEvt.value.newValue);
+    });
+</script>
+
+</body>
+</html>
