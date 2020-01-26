@@ -1,6 +1,8 @@
 ==================
 # Thymeleaf
 
+[Go here for all Thymeleaf articles sorted by categories](https://frontbackend.com/thymeleaf/thymeleaf-tutorial)
+
 
 Relevant Articles:
 * [Spring Boot with Thymeleaf](https://frontbackend.com/thymeleaf/spring-boot-with-thymeleaf)
@@ -24,6 +26,7 @@ Web Components:
 * [Spring Boot + Bootstrap + Thymeleaf Upload File](https://frontbackend.com/spring-boot/spring-boot-bootstrap-thymeleaf-upload-file)
 * [Spring Boot + Bootstrap + Thymeleaf Price Range Slider](https://frontbackend.com/thymeleaf/spring-boot-bootstrap-thymeleaf-price-range-slider)
 * [Spring Boot + Bootstrap + Thymeleaf Slider](https://frontbackend.com/thymeleaf/spring-boot-bootstrap-thymeleaf-slider)
+* [Spring Boot + Bootstrap + Thymeleaf Time Picker](https://frontbackend.com/thymeleaf/spring-boot-bootstrap-thymeleaf-time-picker)
 
 Utility Methods:
 * [#uris](https://frontbackend.com/thymeleaf/thymeleaf-utility-methods-for-uri-url)
