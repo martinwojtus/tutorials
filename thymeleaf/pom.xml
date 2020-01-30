@@ -35,6 +35,7 @@
         <module>thymeleaf-bootstrap-tabs</module>
         <module>thymeleaf-bootstrap-input-password</module>
         <module>thymeleaf-bootstrap-input-mask</module>
+        <module>thymeleaf-bootstrap-checkbox-tree</module>
     </modules>
 
     <properties>

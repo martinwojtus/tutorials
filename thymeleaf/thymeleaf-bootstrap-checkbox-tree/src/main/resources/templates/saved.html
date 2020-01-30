@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Spring Boot Thymeleaf Application - Bootstrap Checkbox Tree</title>
+
+    <link th:rel="stylesheet" th:href="@{webjars/bootstrap/4.0.0-2/css/bootstrap.min.css} "/>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+    <div class="container">
+        <a class="navbar-brand" href="/">Thymeleaf - Bootstrap Checkbox Tree</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div th:fragment="printNode(children, root)">
+    <div th:class="${root ? '' : 'ml-5'}" th:each="child, stat : ${children}">
+        <label th:text="${child.label}">Label</label> <strong
+            th:class="${child.value == true ? 'badge badge-success' : 'badge badge-secondary'}"
+            th:text="${child.value == true ? 'checked' : 'not checked'}">checked/not checked</strong>
+
+        <div th:if="${!#lists.isEmpty(child.children)}"
+             th:replace="saved :: printNode(${child.children}, false)"></div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 mt-5">
+
+            </div>
+        </div>
+        <div th:if="${!#lists.isEmpty(root.children)}"
+             th:replace="saved :: printNode(${root.children}, true)">
+        </div>
+    </div>
+
+    <a th:href="@{/}" class="btn btn-primary">Go back</a>
+</div>
+
+</body>
+</html>

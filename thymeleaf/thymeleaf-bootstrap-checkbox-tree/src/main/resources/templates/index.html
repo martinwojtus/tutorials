@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Spring Boot Thymeleaf Application - Bootstrap Checkbox Tree</title>
+
+    <link th:rel="stylesheet" th:href="@{webjars/bootstrap/4.0.0-2/css/bootstrap.min.css} "/>
+    <link th:rel="stylesheet" th:href="@{webjars/font-awesome/5.11.2/css/all.css} "/>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+    <div class="container">
+        <a class="navbar-brand" href="/">Thymeleaf - Bootstrap Checkbox Tree</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div th:fragment="checkboxChildren(children, path)">
+    <div th:class="${#strings.equals('children', path) ? '' : 'ml-5'}" th:each="child, stat : ${children}"
+         th:with="valuePath=${path + '[' + stat.index + '].value'}, labelPath=${path + '[' + stat.index + '].label'}">
+
+        <label>
+            <th:block th:text="${child.label}">Label</th:block>
+            <input type="hidden" th:name="${labelPath}" th:value="${child.label}"/>
+            <input type="checkbox" th:name="${valuePath}" th:checked="${child.value}"
+                   th:value="${child.value}"
+                   onclick="this.value = this.checked"/>
+        </label>
+
+        <div th:if="${!#lists.isEmpty(child.children)}"
+             th:replace="index :: checkboxChildren(${child.children}, ${path + '[' + stat.index + '].children'})"></div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12 mt-5">
+            <form method="post" th:object="${root}">
+                <div th:if="${!#lists.isEmpty(children)}"
+                     th:replace="index :: checkboxChildren(${root.children}, 'children')"></div>
+
+                <button class="btn btn-primary" type="submit">Submit form</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script th:src="@{/webjars/jquery/jquery.min.js}"></script>
+<script th:src="@{/webjars/popper.js/umd/popper.min.js}"></script>
+<script th:src="@{/webjars/bootstrap/js/bootstrap.min.js}"></script>
+
+</body>
+</html>
