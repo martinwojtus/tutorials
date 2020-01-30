@@ -32,6 +32,9 @@
         <module>thymeleaf-bootstrap-price-range-slider</module>
         <module>thymeleaf-bootstrap-slider</module>
         <module>thymeleaf-bootstrap-timepicker</module>
+        <module>thymeleaf-bootstrap-tabs</module>
+        <module>thymeleaf-bootstrap-input-password</module>
+        <module>thymeleaf-bootstrap-input-mask</module>
     </modules>
 
     <properties>

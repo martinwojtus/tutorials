@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Spring Boot Thymeleaf Application - Bootstrap Input Mask</title>
+
+    <link th:rel="stylesheet" th:href="@{webjars/bootstrap/4.0.0-2/css/bootstrap.min.css} "/>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+    <div class="container">
+        <a class="navbar-brand" href="/">Thymeleaf - Bootstrap Input Mask</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12 mt-5">
+            <p>
+                <label>Email: </label>
+                <strong th:text="${input.email}"></strong>
+            </p>
+
+            <p>
+                <label>Time (12h): </label>
+                <strong th:text="${input.time12h}"></strong>
+            </p>
+
+            <p>
+                <label>Time (24h): </label>
+                <strong th:text="${input.time24h}"></strong>
+            </p>
+
+            <p>
+                <label>Currency: </label>
+                <strong th:text="${input.currency}"></strong>
+            </p>
+
+            <p>
+                <label>IP Address: </label>
+                <strong th:text="${input.ipAddress}"></strong>
+            </p>
+
+            <p>
+                <label>Credit card number: </label>
+                <strong th:text="${input.creditCardNumber}"></strong>
+            </p>
+        </div>
+    </div>
+
+    <a th:href="@{/}" class="btn btn-primary">Go back</a>
+</div>
+
+</body>
+</html>

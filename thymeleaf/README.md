@@ -27,6 +27,9 @@ Web Components:
 * [Spring Boot + Bootstrap + Thymeleaf Price Range Slider](https://frontbackend.com/thymeleaf/spring-boot-bootstrap-thymeleaf-price-range-slider)
 * [Spring Boot + Bootstrap + Thymeleaf Slider](https://frontbackend.com/thymeleaf/spring-boot-bootstrap-thymeleaf-slider)
 * [Spring Boot + Bootstrap + Thymeleaf Time Picker](https://frontbackend.com/thymeleaf/spring-boot-bootstrap-thymeleaf-time-picker)
+* [Spring Boot + Bootstrap + Thymeleaf Tabs](https://frontbackend.com/thymeleaf/spring-boot-bootstrap-thymeleaf-tabs)
+* [Spring Boot + Bootstrap + Thymeleaf Input Mask](https://frontbackend.com/thymeleaf/spring-boot-bootstrap-thymeleaf-input-mask)
+* [Spring Boot + Bootstrap + Thymeleaf Input Password](https://frontbackend.com/thymeleaf/spring-boot-bootstrap-thymeleaf-input-password)
 
 Utility Methods:
 * [#uris](https://frontbackend.com/thymeleaf/thymeleaf-utility-methods-for-uri-url)
