@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Spring Boot Thymeleaf Application - Bootstrap Dropzone</title>
+
+    <link th:rel="stylesheet" th:href="@{/webjars/bootstrap/4.0.0-2/css/bootstrap.min.css} "/>
+    <link th:rel="stylesheet" th:href="@{/assets/dropzonejs/dropzone.css}"/>
+    <link th:rel="stylesheet" th:href="@{/assets/toastr/toastr.min.css}"/>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+    <div class="container">
+        <a class="navbar-brand" href="/">Thymeleaf - Bootstrap Dropzone</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 mt-5">
+
+            <div th:if="${message}">
+                <h2 th:text="${message}"/>
+            </div>
+
+            <div id="dropzone">
+                <form action="/upload" class="dropzone needsclick" id="demo-upload">
+
+                    <div class="dz-message needsclick">
+                        <button type="button" class="dz-button">Drop files here or click to upload.</button>
+                        <br/>
+                    </div>
+
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+
+<script th:src="@{/webjars/jquery/jquery.min.js}"></script>
+<script th:src="@{/webjars/popper.js/umd/popper.min.js}"></script>
+<script th:src="@{/webjars/bootstrap/js/bootstrap.min.js}"></script>
+<script th:src="@{/assets/dropzonejs/dropzone.min.js}"></script>
+<script th:src="@{/assets/toastr/toastr.min.js}"></script>
+
+<script>
+    Dropzone.autoDiscover = false;
+
+    $("#demo-upload").dropzone({
+        success : function(file, response) {
+            toastr.success('File ' + file.name + ' uploaded successfully');
+        }
+    });
+</script>
+
+</body>
+</html>

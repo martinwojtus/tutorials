@@ -36,6 +36,10 @@
         <module>thymeleaf-bootstrap-input-password</module>
         <module>thymeleaf-bootstrap-input-mask</module>
         <module>thymeleaf-bootstrap-checkbox-tree</module>
+        <module>thymeleaf-bootstrap-toggle</module>
+        <module>thymeleaf-bootstrap-dropzone</module>
+        <module>thymeleaf-bootstrap-rating-stars</module>
+        <module>thymeleaf-bootstrap-code-editor</module>
     </modules>
 
     <properties>

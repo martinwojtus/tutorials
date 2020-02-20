@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Spring Boot Thymeleaf Application - Bootstrap Toggle</title>
+
+    <link th:rel="stylesheet" th:href="@{webjars/bootstrap/4.0.0-2/css/bootstrap.min.css} "/>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+    <div class="container">
+        <a class="navbar-brand" href="/">Thymeleaf - Bootstrap Toggle</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <h2 class="mt-5 mb-4">Submitted settings</h2>
+
+            <fieldset th:each="group, groupStat : ${settings.groupList}">
+                <h2 th:text="${group.group}">Group</h2>
+
+                <th:block th:each="setting, settingStat : ${group.settingList}">
+                    <div class="row form-group">
+                        <div class="col-sm-8">
+                            <label th:text="${setting.label}">Label</label>
+                        </div>
+                        <div class="col-sm-4">
+                            <strong th:class="${setting.value ? 'badge badge-success' : 'badge badge-secondary'}"
+                                    th:text="${setting.value ? 'TRUE' : 'FALSE'}"></strong>
+                        </div>
+                    </div>
+
+                </th:block>
+            </fieldset>
+
+            <a th:href="@{/}" class="btn btn-primary">Go back</a>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

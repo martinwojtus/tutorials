@@ -31,6 +31,10 @@ Web Components:
 * [Spring Boot + Bootstrap + Thymeleaf Input Mask](https://frontbackend.com/thymeleaf/spring-boot-bootstrap-thymeleaf-input-mask)
 * [Spring Boot + Bootstrap + Thymeleaf Input Password](https://frontbackend.com/thymeleaf/spring-boot-bootstrap-thymeleaf-input-password)
 * [Spring Boot + Bootstrap + Thymeleaf Checkbox Tree](https://frontbackend.com/thymeleaf/spring-boot-bootstrap-thymeleaf-checkbox-tree)
+* [Spring Boot + Bootstrap + Thymeleaf Code Editor](https://frontbackend.com/thymeleaf/spring-boot-bootstrap-thymeleaf-code-editor)
+* [Spring Boot + Bootstrap + Thymeleaf Rating Stars](https://frontbackend.com/thymeleaf/spring-boot-bootstrap-thymeleaf-rating-stars)
+* [Spring Boot + Bootstrap + Thymeleaf Drop File Area](https://frontbackend.com/thymeleaf/spring-boot-bootstrap-thymeleaf-drop-file-area)
+* [Spring Boot + Bootstrap + Thymeleaf Toggle](https://frontbackend.com/thymeleaf/spring-boot-bootstrap-thymeleaf-toggle)
 
 Utility Methods:
 * [#uris](https://frontbackend.com/thymeleaf/thymeleaf-utility-methods-for-uri-url)
