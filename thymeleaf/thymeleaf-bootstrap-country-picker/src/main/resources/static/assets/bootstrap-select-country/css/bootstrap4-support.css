@@ -1,0 +1,50 @@
+/*=======================
+  Country Picker Start
+======================*/
+
+.bootstrap-select.countrypicker button.btn.dropdown-toggle {
+    /*position: absolute;*/
+    z-index: 999;
+    background: #fff;
+    width: 100%;
+    border: 1px solid #ced4da;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bootstrap-select.countrypicker button.btn.dropdown-toggle span.filter-option {
+    width:auto;
+}
+.bootstrap-select.countrypicker .dropdown-menu.open.show {
+    height: auto !important;
+    max-height: 300px !important;
+    width: 100%;
+}
+
+.bootstrap-select.countrypicker .dropdown-menu.open.show ul.dropdown-menu.inner {
+    max-height: 300px !important;
+    overflow: auto !important;
+    position: initial;
+    display: block;
+}
+
+.bootstrap-select.countrypicker .dropdown-menu.open.show ul.dropdown-menu.inner li {
+    border-bottom: 1px solid #e9e9e9;
+    padding: 10px;
+}
+
+.bootstrap-select.countrypicker .dropdown-menu.open.show ul.dropdown-menu.inner li a {
+    outline: none;
+}
+
+.bootstrap-select.countrypicker .dropdown-menu.open.show ul.dropdown-menu.inner li a.option-with-flag {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+}
+
+/*=======================
+  Country Picker End
+======================*/

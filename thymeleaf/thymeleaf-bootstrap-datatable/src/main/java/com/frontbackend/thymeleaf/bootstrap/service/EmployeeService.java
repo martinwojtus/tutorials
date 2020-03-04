@@ -52,9 +52,13 @@ public class EmployeeService {
                                            .limit(pagingRequest.getLength())
                                            .collect(Collectors.toList());
 
+        long count = employees.stream()
+                             .filter(filterEmployees(pagingRequest))
+                             .count();
+
         Page<Employee> page = new Page<>(filtered);
-        page.setRecordsFiltered(employees.size());
-        page.setRecordsTotal(employees.size());
+        page.setRecordsFiltered((int) count);
+        page.setRecordsTotal((int) count);
         page.setDraw(pagingRequest.getDraw());
 
         return page;

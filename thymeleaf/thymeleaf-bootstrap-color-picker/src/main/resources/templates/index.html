@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Spring Boot Thymeleaf Application - Bootstrap Color Picker</title>
+
+    <link th:rel="stylesheet" th:href="@{/webjars/bootstrap/4.0.0-2/css/bootstrap.min.css} "/>
+    <link th:rel="stylesheet" th:href="@{/assets/bootstrap-colorpicker/css/bootstrap-colorpicker.css} "/>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+    <div class="container">
+        <a class="navbar-brand" href="/">Thymeleaf - Bootstrap Color Picker</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-5 mt-5">
+            <form method="post" th:object="${colors}">
+
+                <div class="form-group">
+                    <div id="cp2" class="input-group" title="Using input value">
+                        <input type="text" class="form-control input-lg" th:field="*{hex}"/>
+                        <span class="input-group-append">
+                    <span class="input-group-text colorpicker-input-addon"><i></i></span>
+                  </span>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div id="cp3a" class="input-group" data-color="rgb(241, 138, 49)"
+                         title="Using data-color attribute in the colorpicker element">
+                        <input type="text" class="form-control input-lg" th:field="*{rgb}"/>
+                        <span class="input-group-append">
+                    <span class="input-group-text colorpicker-input-addon"><i></i></span>
+                  </span>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div id="cp3b" class="input-group" title="Using data-color attribute in the input">
+                        <input type="text" class="form-control input-lg" data-color="hsl(56, 93%, 63%)"
+                               th:field="*{hsl}"/>
+                        <span class=" input-group-append">
+                    <span class="input-group-text colorpicker-input-addon"><i></i></span>
+                    </span>
+                    </div>
+                </div>
+
+                <button class="btn btn-primary" type="submit">Submit form</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script th:src="@{/webjars/jquery/jquery.min.js}"></script>
+<script th:src="@{/webjars/popper.js/umd/popper.min.js}"></script>
+<script th:src="@{/webjars/bootstrap/js/bootstrap.min.js}"></script>
+<script th:src="@{/assets/bootstrap-colorpicker/js/bootstrap-colorpicker.js}"></script>
+
+<script>
+    $(function () {
+        $('#cp2, #cp3a, #cp3b').colorpicker();
+    });
+</script>
+
+</body>
+</html>

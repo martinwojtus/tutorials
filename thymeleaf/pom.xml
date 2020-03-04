@@ -40,6 +40,16 @@
         <module>thymeleaf-bootstrap-dropzone</module>
         <module>thymeleaf-bootstrap-rating-stars</module>
         <module>thymeleaf-bootstrap-code-editor</module>
+        <module>thymeleaf-bootstrap-countdown</module>
+        <module>thymeleaf-bootstrap-input-spinner</module>
+        <module>thymeleaf-bootstrap-telephone-input</module>
+        <module>thymeleaf-bootstrap-color-picker</module>
+        <module>thymeleaf-bootstrap-country-picker</module>
+        <module>thymeleaf-bootstrap-date-range-picker</module>
+        <module>thymeleaf-bootstrap-timezone-picker</module>
+        <module>thymeleaf-bootstrap-language-picker</module>
+        <module>thymeleaf-bootstrap-datetime-picker</module>
+        <module>thymeleaf-bootstrap-rich-text-editor</module>
     </modules>
 
     <properties>

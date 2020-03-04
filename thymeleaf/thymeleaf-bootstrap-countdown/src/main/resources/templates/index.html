@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Spring Boot Thymeleaf Application - Bootstrap Countdown</title>
+
+    <link th:rel="stylesheet" th:href="@{/webjars/bootstrap/4.0.0-2/css/bootstrap.min.css} "/>
+    <link th:rel="stylesheet" th:href="@{/webjars/font-awesome/5.11.2/css/all.css} "/>
+    <link th:rel="stylesheet" th:href="@{/assets/styles/custom.css} "/>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+    <div class="container">
+        <a class="navbar-brand" href="/">Thymeleaf - Bootstrap Countdown</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 mt-5">
+            <div class="rounded bg-gradient text-white shadow p-5 text-center mb-5">
+                <p class="mb-0 font-weight-bold text-uppercase">We'll open in</p>
+                <div id="clock" class="countdown pt-4"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script th:src="@{/webjars/jquery/jquery.min.js}"></script>
+<script th:src="@{/webjars/popper.js/umd/popper.min.js}"></script>
+<script th:src="@{/webjars/bootstrap/js/bootstrap.min.js}"></script>
+<script th:src="@{/assets/jquery-countdown/jquery.countdown.min.js}"></script>
+
+<script th:inline="javascript">
+    var endDate = [[${#calendars.format(endDate,'yyyy/MM/dd')}]];
+
+    $('#clock').countdown(endDate).on('update.countdown', function (event) {
+        var $this = $(this).html(event.strftime(''
+            + '<span class="h1 font-weight-bold">%D</span> Day%!d'
+            + '<span class="h1 font-weight-bold">%H</span> Hr'
+            + '<span class="h1 font-weight-bold">%M</span> Min'
+            + '<span class="h1 font-weight-bold">%S</span> Sec'));
+    });
+</script>
+
+</body>
+</html>
