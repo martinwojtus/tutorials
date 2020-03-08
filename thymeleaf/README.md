@@ -35,6 +35,16 @@ Web Components:
 * [Spring Boot + Bootstrap + Thymeleaf Rating Stars](https://frontbackend.com/thymeleaf/spring-boot-bootstrap-thymeleaf-rating-stars)
 * [Spring Boot + Bootstrap + Thymeleaf Drop File Area](https://frontbackend.com/thymeleaf/spring-boot-bootstrap-thymeleaf-drop-file-area)
 * [Spring Boot + Bootstrap + Thymeleaf Toggle](https://frontbackend.com/thymeleaf/spring-boot-bootstrap-thymeleaf-toggle)
+* [Spring Boot + Bootstrap + Thymeleaf Countdown](https://frontbackend.com/thymeleaf/spring-boot-bootstrap-thymeleaf-countdown)
+* [Spring Boot + Bootstrap + Thymeleaf Input Spinner](https://frontbackend.com/thymeleaf/spring-boot-bootstrap-thymeleaf-input-spinner)
+* [Spring Boot + Bootstrap + Thymeleaf Telephone Input](https://frontbackend.com/thymeleaf/spring-boot-bootstrap-thymeleaf-telephone-input)
+* [Spring Boot + Bootstrap + Thymeleaf Color Picker](https://frontbackend.com/thymeleaf/spring-boot-bootstrap-thymeleaf-color-picker)
+* [Spring Boot + Bootstrap + Thymeleaf Country Picker](https://frontbackend.com/thymeleaf/spring-boot-bootstrap-thymeleaf-country-picker)
+* [Spring Boot + Bootstrap + Thymeleaf Date Range Picker](https://frontbackend.com/thymeleaf/spring-boot-bootstrap-thymeleaf-date-range-picker)
+* [Spring Boot + Bootstrap + Thymeleaf Timezone Picker](https://frontbackend.com/thymeleaf/spring-boot-bootstrap-thymeleaf-timezone-picker)
+* [Spring Boot + Bootstrap + Thymeleaf Language Picker](https://frontbackend.com/thymeleaf/spring-boot-bootstrap-thymeleaf-language-picker)
+* [Spring Boot + Bootstrap + Thymeleaf DateTime Picker](https://frontbackend.com/thymeleaf/spring-boot-bootstrap-thymeleaf-datetime-picker)
+* [Spring Boot + Bootstrap + Thymeleaf Rich Text Editor](https://frontbackend.com/thymeleaf/spring-boot-bootstrap-thymeleaf-rich-text-editor)
 
 Utility Methods:
 * [#uris](https://frontbackend.com/thymeleaf/thymeleaf-utility-methods-for-uri-url)
