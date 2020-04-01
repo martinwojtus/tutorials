@@ -1,0 +1,89 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Spring Boot Thymeleaf Application - Bootstrap Toast</title>
+
+    <link th:rel="stylesheet" th:href="@{/assets/izitoast/css/iziToast.css} "/>
+    <link th:rel="stylesheet" th:href="@{/webjars/bootstrap/4.0.0-2/css/bootstrap.min.css} "/>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+    <div class="container">
+        <a class="navbar-brand" href="/">Thymeleaf - Bootstrap Toast</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 mt-5">
+            <form method="post" action="email">
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input id="email" placeholder="Email address" autocomplete="off" class="form-control"/>
+                </div>
+
+                <button class="btn btn-primary" type="submit">Validate email</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+<script th:src="@{/webjars/jquery/jquery.min.js}"></script>
+<script th:src="@{/webjars/popper.js/umd/popper.min.js}"></script>
+<script th:src="@{/webjars/bootstrap/js/bootstrap.min.js}"></script>
+<script th:src="@{/assets/izitoast/js/iziToast.min.js}"></script>
+
+<script>
+    $('button[type="submit"]').click(function (event) {
+        event.preventDefault();
+
+        $.post("/email", {'email': $('#email').val()}, function () {
+            iziToast.show({
+                title: 'Success',
+                message: 'Provided email address is valid',
+                position: 'topRight',
+                timeout: 500000,
+                color: 'green'
+            });
+
+        }).fail(function () {
+            iziToast.show({
+                title: 'Fail',
+                message: 'This is not a valid email address',
+                position: 'topRight',
+                color: 'red'
+            });
+        });
+    });
+</script>
+
+</body>
+</html>
