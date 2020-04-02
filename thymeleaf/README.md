@@ -46,6 +46,7 @@ Web Components:
 * [Spring Boot + Bootstrap + Thymeleaf DateTime Picker](https://frontbackend.com/thymeleaf/spring-boot-bootstrap-thymeleaf-datetime-picker)
 * [Spring Boot + Bootstrap + Thymeleaf Rich Text Editor](https://frontbackend.com/thymeleaf/spring-boot-bootstrap-thymeleaf-rich-text-editor)
 * [Spring Boot + Bootstrap + Thymeleaf Toast](https://frontbackend.com/thymeleaf/spring-boot-bootstrap-thymeleaf-toast)
+* [Spring Boot + Bootstrap + Thymeleaf Dual ListBox](https://frontbackend.com/thymeleaf/spring-boot-bootstrap-thymeleaf-dual-listbox)
 
 Utility Methods:
 * [#uris](https://frontbackend.com/thymeleaf/thymeleaf-utility-methods-for-uri-url)

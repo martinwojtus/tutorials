@@ -51,6 +51,7 @@
         <module>thymeleaf-bootstrap-datetime-picker</module>
         <module>thymeleaf-bootstrap-rich-text-editor</module>
         <module>thymeleaf-bootstrap-toast</module>
+        <module>thymeleaf-bootstrap-dual-listbox</module>
     </modules>
 
     <properties>
