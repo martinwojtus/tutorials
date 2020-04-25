@@ -16,6 +16,7 @@ Relevant Articles:
 * [Working with Forms in Thymeleaf](https://frontbackend.com/thymeleaf/working-with-forms-in-thymeleaf)
 * [Using Enums in Thymeleaf](https://frontbackend.com/thymeleaf/using-enums-in-thymeleaf)
 * [Working with local variables in Thymeleaf](https://frontbackend.com/thymeleaf/working-with-local-variables-in-thymeleaf)
+* [Working with dates in Thymeleaf](https://frontbackend.com/thymeleaf/working-with-dates-in-thymeleaf)
 
 Web Components:
 * [Spring Boot + Bootstrap + Thymeleaf Input Date](https://frontbackend.com/thymeleaf/spring-boot-bootstrap-thymeleaf-input-date)

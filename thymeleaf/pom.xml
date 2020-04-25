@@ -52,6 +52,7 @@
         <module>thymeleaf-bootstrap-rich-text-editor</module>
         <module>thymeleaf-bootstrap-toast</module>
         <module>thymeleaf-bootstrap-dual-listbox</module>
+        <module>thymeleaf-extras-java8time</module>
     </modules>
 
     <properties>

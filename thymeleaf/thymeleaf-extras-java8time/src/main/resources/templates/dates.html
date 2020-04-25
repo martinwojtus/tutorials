@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Spring Boot Thymeleaf Application - Working with dates</title>
+</head>
+<body>
+
+<h2>Format ISO</h2>
+<p th:text="${#dates.formatISO(date)}"></p>
+<p th:text="${#temporals.formatISO(localDate)}"></p>
+<p th:text="${#temporals.formatISO(localDateTime)}"></p>
+<p th:text="${#temporals.formatISO(java8Instant)}"></p>
+
+<h1>Format dates</h1>
+<p th:text="${#dates.format(date, 'dd.MM.yyyy')}"></p>
+<p th:text="${#temporals.format(localDate, 'MM-yyyy')}"></p>
+<p th:text="${#temporals.format(localDateTime, 'dd-MM-yyyy HH:mm')}"></p>
+<p th:text="${#temporals.format(java8Instant, 'dd-MM-yyyy HH:mm:ss')}"></p>
+<p th:text="${#temporals.format(localDateTime, 'dd-MMMM-yyyy', new java.util.Locale('en', 'EN'))}">
+<p th:text="${#temporals.format(localDateTime, 'dd-MMMM-yyyy', new java.util.Locale('es', 'ES'))}">
+<p th:text="${#temporals.format(localDateTime, 'dd-MMMM-yyyy', new java.util.Locale('fr', 'FR'))}">
+
+<h2>Get date fields</h2>
+<table style="width:300px">
+    <tr>
+        <td>Date</td>
+        <td>LocalDateTime</td>
+    </tr>
+    <tr>
+        <td>
+            <p th:text="${#dates.day(date)}"></p>
+            <p th:text="${#dates.month(date)}"></p>
+            <p th:text="${#dates.monthName(date)}"></p>
+            <p th:text="${#dates.monthNameShort(date)}"></p>
+            <p th:text="${#dates.year(date)}"></p>
+            <p th:text="${#dates.dayOfWeek(date)}"></p>
+            <p th:text="${#dates.dayOfWeekName(date)}"></p>
+            <p th:text="${#dates.dayOfWeekNameShort(date)}"></p>
+            <p th:text="${#dates.hour(date)}"></p>
+            <p th:text="${#dates.minute(date)}"></p>
+            <p th:text="${#dates.second(date)}"></p>
+        </td>
+        <td>
+            <p th:text="${#temporals.day(localDateTime)}"></p>
+            <p th:text="${#temporals.month(localDateTime)}"></p>
+            <p th:text="${#temporals.monthName(localDateTime)}"></p>
+            <p th:text="${#temporals.monthNameShort(localDateTime)}"></p>
+            <p th:text="${#temporals.year(localDateTime)}"></p>
+            <p th:text="${#temporals.dayOfWeek(localDateTime)}"></p>
+            <p th:text="${#temporals.dayOfWeekName(localDateTime)}"></p>
+            <p th:text="${#temporals.dayOfWeekNameShort(localDateTime)}"></p>
+            <p th:text="${#temporals.hour(localDateTime)}"></p>
+            <p th:text="${#temporals.minute(localDateTime)}"></p>
+            <p th:text="${#temporals.second(localDateTime)}"></p>
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>
