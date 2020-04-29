@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Spring Boot Thymeleaf Application - Bootstrap Switch</title>
+
+    <link th:rel="stylesheet" th:href="@{webjars/bootstrap/4.0.0-2/css/bootstrap.min.css} "/>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+    <div class="container">
+        <a class="navbar-brand" href="/">Thymeleaf - Bootstrap Switch</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <h2 class="mt-5">Known languages</h2>
+
+    <p>JAVA: <strong class="badge" th:text="${languages.java}"
+                     th:classappend="${languages.java ? 'badge-success' : 'badge-secondary'}"></strong>
+    </p>
+
+    <p>CSS: <strong class="badge" th:text="${languages.css}"
+                    th:classappend="${languages.css ? 'badge-success' : 'badge-secondary'}"></strong>
+    </p>
+
+    <p>Angular: <strong class="badge" th:text="${languages.angular}"
+                        th:classappend="${languages.angular ? 'badge-success' : 'badge-secondary'}"></strong>
+    </p>
+
+    <p>Python: <strong class="badge" th:text="${languages.python}"
+                       th:classappend="${languages.python ? 'badge-success' : 'badge-secondary'}"></strong>
+    </p>
+
+    <p>React: <strong class="badge" th:text="${languages.react}"
+                      th:classappend="${languages.react ? 'badge-success' : 'badge-secondary'}"></strong>
+    </p>
+
+    <p>Go: <strong class="badge" th:text="${languages.go}"
+                   th:classappend="${languages.go ? 'badge-success' : 'badge-secondary'}"></strong>
+    </p>
+
+    <a th:href="@{/}" class="btn btn-primary">Go back</a>
+</div>
+
+</body>
+</html>
