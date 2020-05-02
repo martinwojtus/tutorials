@@ -16,3 +16,8 @@ Relevant Articles:
 * [Java IO - Check If File Exist](https://frontbackend.com/java/java-io-check-if-file-exist)
 * [Java IO - Copy a file](https://frontbackend.com/java/java-io-copy-a-file)
 
+# Conversions
+
+* [How to convert InputStream to String in Java](https://frontbackend.com/java/how-to-convert-inputstream-to-string-in-java)
+
+
