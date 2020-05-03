@@ -1,4 +1,4 @@
-package com.frontbackend.java.io.conversions;
+package com.frontbackend.java.io.conversions.inputstream.tobytearray;
 
 import static java.nio.channels.Channels.newChannel;
 

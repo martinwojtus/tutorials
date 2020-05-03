@@ -1,4 +1,4 @@
-package com.frontbackend.java.io.conversions;
+package com.frontbackend.java.io.conversions.inputstream.tostring;
 
 import java.io.FileInputStream;
 import java.io.IOException;

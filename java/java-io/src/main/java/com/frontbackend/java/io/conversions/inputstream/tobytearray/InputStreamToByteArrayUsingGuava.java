@@ -1,17 +1,16 @@
-package com.frontbackend.java.io.conversions;
+package com.frontbackend.java.io.conversions.inputstream.tobytearray;
 
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.Arrays;
 
-import org.apache.commons.io.IOUtils;
+import com.google.common.io.ByteStreams;
 
-public class InputStreamToByteArrayUsingIOUtils {
+public class InputStreamToByteArrayUsingGuava {
 
     public static void main(String[] args) throws IOException {
         InputStream initialStream = new ByteArrayInputStream(new byte[] { 102, 114, 111, 110, 116, 98, 97, 99, 107, 101, 110, 100 });
 
-        byte[] byteArray = IOUtils.toByteArray(initialStream);
+        byte[] byteArray = ByteStreams.toByteArray(initialStream);
     }
 }

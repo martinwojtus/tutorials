@@ -1,4 +1,4 @@
-package com.frontbackend.java.io.conversions;
+package com.frontbackend.java.io.conversions.inputstream.tobytearray;
 
 import java.io.ByteArrayInputStream;
 import java.io.IOException;

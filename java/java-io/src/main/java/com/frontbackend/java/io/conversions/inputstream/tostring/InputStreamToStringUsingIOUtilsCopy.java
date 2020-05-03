@@ -1,18 +1,20 @@
-package com.frontbackend.java.io.conversions;
+package com.frontbackend.java.io.conversions.inputstream.tostring;
 
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
-import java.nio.charset.StandardCharsets;
+import java.io.StringWriter;
 
 import org.apache.commons.io.IOUtils;
 
-public class InputStreamToStringUsingIOUtilsToString {
+public class InputStreamToStringUsingIOUtilsCopy {
 
     public static void main(String[] args) throws IOException {
         InputStream inputStream = new FileInputStream("/tmp/frontbackend.txt");
 
-        String text = IOUtils.toString(inputStream, StandardCharsets.UTF_8);
+        StringWriter writer = new StringWriter();
+        IOUtils.copy(inputStream, writer, "UTF-8");
+        String text = writer.toString();
 
         System.out.println(text);
     }

@@ -22,5 +22,6 @@ Relevant Articles:
 * [How to convert InputStream to Byte Array in Java](https://frontbackend.com/java/how-to-convert-inputstream-to-byte-array-in-java)
 * [How to convert InputStream to ByteBuffer in Java](https://frontbackend.com/java/how-to-convert-inputstream-to-bytebuffer-in-java)
 * [Write an InputStream to a File in Java](https://frontbackend.com/java/write-an-inputstream-to-a-file-in-java)
+* [Convert InputStream to Reader in Java](https://frontbackend.com/java/convert-inputstream-to-reader-in-java)
 
 

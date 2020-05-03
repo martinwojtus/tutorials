@@ -1,4 +1,4 @@
-package com.frontbackend.java.io.conversions;
+package com.frontbackend.java.io.conversions.inputstream.tofile;
 
 import java.io.ByteArrayInputStream;
 import java.io.File;
@@ -9,8 +9,8 @@ import java.io.InputStream;
 public class InputStreamToFileUsingFileOutputStream {
 
     public static void main(String[] args) throws IOException {
-        byte[] frontbackend = { 102, 114, 111, 110, 116, 98, 97, 99, 107, 101, 110, 100 }; // frontbackend
-        InputStream inputStream = new ByteArrayInputStream(frontbackend);
+        byte[] sampleBytes = { 102, 114, 111, 110, 116, 98, 97, 99, 107, 101, 110, 100 }; // frontbackend
+        InputStream inputStream = new ByteArrayInputStream(sampleBytes);
 
         File file = new File("/tmp/output.txt");
         try (FileOutputStream outputStream = new FileOutputStream(file)) {
