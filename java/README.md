@@ -16,12 +16,26 @@ Relevant Articles:
 * [Java IO - Check If File Exist](https://frontbackend.com/java/java-io-check-if-file-exist)
 * [Java IO - Copy a file](https://frontbackend.com/java/java-io-copy-a-file)
 
-# Conversions
+# Java IO Conversions
 
 * [How to convert InputStream to String in Java](https://frontbackend.com/java/how-to-convert-inputstream-to-string-in-java)
 * [How to convert InputStream to Byte Array in Java](https://frontbackend.com/java/how-to-convert-inputstream-to-byte-array-in-java)
 * [How to convert InputStream to ByteBuffer in Java](https://frontbackend.com/java/how-to-convert-inputstream-to-bytebuffer-in-java)
 * [Write an InputStream to a File in Java](https://frontbackend.com/java/write-an-inputstream-to-a-file-in-java)
 * [Convert InputStream to Reader in Java](https://frontbackend.com/java/convert-inputstream-to-reader-in-java)
+* [How to convert InputStream to ByteBuffer in Java](https://frontbackend.com/java/how-to-convert-inputstream-to-bytebuffer-in-java)
+* [How to convert InputStream to Byte Array in Java](https://frontbackend.com/java/how-to-convert-inputstream-to-byte-array-in-java)
+* [Write an InputStream to a File in Java](https://frontbackend.com/java/write-an-inputstream-to-a-file-in-java)
+* [How to convert Reader to String in Java](https://frontbackend.com/java/how-to-convert-reader-to-string-in-java)
+* [Reader to Byte Array in Java](https://frontbackend.com/java/reader-to-byte-array-in-java)
+* [Reader to InputStream in Java](https://frontbackend.com/java/reader-to-inputstream-in-java)
+* [How to convert Reader to File in Java](https://frontbackend.com/java/how-to-convert-reader-to-file-in-java)
+* [Convert InputStream to Reader in Java](https://frontbackend.com/java/convert-inputstream-to-reader-in-java)
+* [Convert String to Reader in Java](https://frontbackend.com/java/convert-string-to-reader-in-java)
+* [File to Reader conversion in Java](https://frontbackend.com/java/file-to-reader-conversion-in-java)
+* [How to convert Byte Array to Reader in Java](https://frontbackend.com/java/how-to-convert-byte-array-to-reader-in-java)
+
+
+
 
 
