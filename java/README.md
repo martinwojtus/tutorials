@@ -15,6 +15,7 @@ Relevant Articles:
 * [Java IO - Create Read Only File](https://frontbackend.com/java/java-io-create-read-only-file)
 * [Java IO - Check If File Exist](https://frontbackend.com/java/java-io-check-if-file-exist)
 * [Java IO - Copy a file](https://frontbackend.com/java/java-io-copy-a-file)
+* [Java IO - Remove a File](java-io-remove-a-file)
 
 # Java IO Conversions
 
