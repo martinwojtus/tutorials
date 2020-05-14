@@ -16,6 +16,7 @@ Relevant Articles:
 * [Java IO - Check If File Exist](https://frontbackend.com/java/java-io-check-if-file-exist)
 * [Java IO - Copy a file](https://frontbackend.com/java/java-io-copy-a-file)
 * [Java IO - Remove a File](https://frontbackend.com/java/java-io-remove-a-file)
+* [Java IO - Rename / Move a File](https://frontbackend.com/java/java-io-rename-move-file)
 
 # Java IO Conversions
 
