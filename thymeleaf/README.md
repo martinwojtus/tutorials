@@ -49,6 +49,10 @@ Web Components:
 * [Spring Boot + Bootstrap + Thymeleaf Toast](https://frontbackend.com/thymeleaf/spring-boot-bootstrap-thymeleaf-toast)
 * [Spring Boot + Bootstrap + Thymeleaf Dual ListBox](https://frontbackend.com/thymeleaf/spring-boot-bootstrap-thymeleaf-dual-listbox)
 * [Spring Boot + Bootstrap + Thymeleaf Switch](https://frontbackend.com/thymeleaf/spring-boot-bootstrap-thymeleaf-switch)
+* [Spring Boot + Bootstrap + Thymeleaf Input Email](https://frontbackend.com/thymeleaf/spring-boot-bootstrap-thymeleaf-input-email)
+* [Spring Boot + Bootstrap + Thymeleaf Input Number](https://frontbackend.com/thymeleaf/spring-boot-bootstrap-thymeleaf-input-number)
+* [Spring Boot + Bootstrap + Thymeleaf Input Telephone Number](https://frontbackend.com/thymeleaf/spring-boot-bootstrap-thymeleaf-input-telephone-number)
+* [Spring Boot + Bootstrap + Thymeleaf Markdown Editor](https://frontbackend.com/thymeleaf/spring-boot-bootstrap-thymeleaf-markdown-editor)
 
 Utility Methods:
 * [#uris](https://frontbackend.com/thymeleaf/thymeleaf-utility-methods-for-uri-url)

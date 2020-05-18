@@ -54,6 +54,10 @@
         <module>thymeleaf-bootstrap-dual-listbox</module>
         <module>thymeleaf-bootstrap-switch</module>
         <module>thymeleaf-extras-java8time</module>
+        <module>thymeleaf-bootstrap-input-email</module>
+        <module>thymeleaf-bootstrap-input-number</module>
+        <module>thymeleaf-bootstrap-input-tel</module>
+        <module>thymeleaf-bootstrap-markdown-editor</module>
     </modules>
 
     <properties>
