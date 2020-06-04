@@ -17,6 +17,8 @@ Relevant Articles:
 * [Java IO - Copy a file](https://frontbackend.com/java/java-io-copy-a-file)
 * [Java IO - Remove a File](https://frontbackend.com/java/java-io-remove-a-file)
 * [Java IO - Rename / Move a File](https://frontbackend.com/java/java-io-rename-move-file)
+* [Java IO - Reading a File](https://frontbackend.com/java/java-io-reading-a-file)
+* [Java IO - Reading Content from URL](https://frontbackend.com/java/java-io-reading-content-from-url)
 
 # Java IO Conversions
 
