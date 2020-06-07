@@ -19,7 +19,6 @@ Relevant Articles:
 * [Java IO - Rename / Move a File](https://frontbackend.com/java/java-io-rename-move-file)
 * [Java IO - Reading a File](https://frontbackend.com/java/java-io-reading-a-file)
 * [Java IO - Reading Content from URL](https://frontbackend.com/java/java-io-reading-content-from-url)
-* [Java IO - Convert InputStream to OutputStream](https://frontbackend.com/java/java-io-convert-inputstream-to-outputstream)
 
 # Java IO Conversions
 
@@ -39,7 +38,7 @@ Relevant Articles:
 * [Convert String to Reader in Java](https://frontbackend.com/java/convert-string-to-reader-in-java)
 * [File to Reader conversion in Java](https://frontbackend.com/java/file-to-reader-conversion-in-java)
 * [How to convert Byte Array to Reader in Java](https://frontbackend.com/java/how-to-convert-byte-array-to-reader-in-java)
-
+* [Convert InputStream to OutputStream](https://frontbackend.com/java/java-io-convert-inputstream-to-outputstream)
 
 
 
