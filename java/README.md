@@ -19,6 +19,7 @@ Relevant Articles:
 * [Java IO - Rename / Move a File](https://frontbackend.com/java/java-io-rename-move-file)
 * [Java IO - Reading a File](https://frontbackend.com/java/java-io-reading-a-file)
 * [Java IO - Reading Content from URL](https://frontbackend.com/java/java-io-reading-content-from-url)
+* [Java IO - Convert InputStream to OutputStream](https://frontbackend.com/java/java-io-convert-inputstream-to-outputstream)
 
 # Java IO Conversions
 
