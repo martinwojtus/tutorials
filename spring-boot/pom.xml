@@ -13,6 +13,7 @@
         <module>hello-world</module>
         <module>custom-banner</module>
         <module>build-war</module>
+        <module>read-resources</module>
     </modules>
 
     <properties>

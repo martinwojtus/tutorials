@@ -12,6 +12,7 @@
     <modules>
         <module>java-convertions</module>
         <module>java-io</module>
+        <module>java-io-resources</module>
     </modules>
 
     <properties>

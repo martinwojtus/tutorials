@@ -58,6 +58,7 @@
         <module>thymeleaf-bootstrap-input-number</module>
         <module>thymeleaf-bootstrap-input-tel</module>
         <module>thymeleaf-bootstrap-markdown-editor</module>
+        <module>thymeleaf-custom-dialect</module>
     </modules>
 
     <properties>
