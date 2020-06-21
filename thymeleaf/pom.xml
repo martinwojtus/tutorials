@@ -59,6 +59,7 @@
         <module>thymeleaf-bootstrap-input-tel</module>
         <module>thymeleaf-bootstrap-markdown-editor</module>
         <module>thymeleaf-custom-dialect</module>
+        <module>thymeleaf-bootstrap-date-formatting</module>
     </modules>
 
     <properties>
