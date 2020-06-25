@@ -12,7 +12,7 @@ public class InputStreamToOutputStreamUsingTransferTo {
         try (InputStream in = new FileInputStream("/tmp/input.txt");
              OutputStream out = new FileOutputStream("/tmp/output.txt")) {
 
-            in.transferTo(out);
+           // in.transferTo(out);
         }
     }
 }

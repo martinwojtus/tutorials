@@ -39,7 +39,7 @@ Relevant Articles:
 * [File to Reader conversion in Java](https://frontbackend.com/java/file-to-reader-conversion-in-java)
 * [How to convert Byte Array to Reader in Java](https://frontbackend.com/java/how-to-convert-byte-array-to-reader-in-java)
 * [Convert InputStream to OutputStream](https://frontbackend.com/java/java-io-convert-inputstream-to-outputstream)
-
+* [Convert Byte Array to File In Java](https://frontbackend.com/java/convert-byte-array-to-file-in-java)
 
 
 
