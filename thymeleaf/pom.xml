@@ -60,6 +60,7 @@
         <module>thymeleaf-bootstrap-markdown-editor</module>
         <module>thymeleaf-custom-dialect</module>
         <module>thymeleaf-bootstrap-date-formatting</module>
+        <module>thymeleaf-bootstrap-pagination</module>
     </modules>
 
     <properties>

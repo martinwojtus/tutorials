@@ -55,6 +55,7 @@ Web Components:
 * [Spring Boot + Bootstrap + Thymeleaf Input Number](https://frontbackend.com/thymeleaf/spring-boot-bootstrap-thymeleaf-input-number)
 * [Spring Boot + Bootstrap + Thymeleaf Input Telephone Number](https://frontbackend.com/thymeleaf/spring-boot-bootstrap-thymeleaf-input-telephone-number)
 * [Spring Boot + Bootstrap + Thymeleaf Markdown Editor](https://frontbackend.com/thymeleaf/spring-boot-bootstrap-thymeleaf-markdown-editor)
+* [Spring Boot + Bootstrap + Thymeleaf Pagination (JPA, Liquibase, H2)](https://frontbackend.com/thymeleaf/spring-boot-bootstrap-thymeleaf-pagination-jpa-liquibase-h2)
 
 Utility Methods:
 * [#uris](https://frontbackend.com/thymeleaf/thymeleaf-utility-methods-for-uri-url)
