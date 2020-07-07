@@ -19,6 +19,8 @@ Relevant Articles:
 * [Java IO - Rename / Move a File](https://frontbackend.com/java/java-io-rename-move-file)
 * [Java IO - Reading a File](https://frontbackend.com/java/java-io-reading-a-file)
 * [Java IO - Reading Content from URL](https://frontbackend.com/java/java-io-reading-content-from-url)
+* [Java IO - Reading CSV file in Java](https://frontbackend.com/java/reading-csv-file-in-java)
+* [Java IO - Determine current working directory in Java](https://frontbackend.com/java/determine-current-working-directory-in-java)
 
 # Java IO Conversions
 

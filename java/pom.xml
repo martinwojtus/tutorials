@@ -13,6 +13,7 @@
         <module>java-convertions</module>
         <module>java-io</module>
         <module>java-io-resources</module>
+        <module>java-io-working-directory</module>
     </modules>
 
     <properties>
@@ -23,6 +24,7 @@
         <assertj.version>3.9.1</assertj.version>
         <commons.io.version>2.6</commons.io.version>
         <lombok.version>1.18.2</lombok.version>
+        <opencsv.version>4.1</opencsv.version>
     </properties>
 
 </project>
