@@ -1,0 +1,90 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Spring Boot Thymeleaf Application - Bootstrap Tree Table</title>
+
+    <link th:rel="stylesheet" th:href="@{assets/jquery-treetable/jquery.treetable.css}"/>
+    <link th:rel="stylesheet" th:href="@{assets/jquery-treetable/jquery.treetable.theme.default.css}"/>
+    <link th:rel="stylesheet" th:href="@{webjars/bootstrap/4.0.0-2/css/bootstrap.min.css} "/>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+    <div class="container">
+        <a class="navbar-brand" href="/">Thymeleaf - Bootstrap Tree Table</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+
+    <div class="row">
+        <div class="col mt-5">
+
+            <table id="treeTable" class="table">
+                <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>URL</th>
+                    <th>Action</th>
+                </tr>
+                </thead>
+            </table>
+
+        </div>
+    </div>
+
+</div>
+
+<script th:src="@{/webjars/jquery/jquery.min.js}"></script>
+<script th:src="@{/webjars/popper.js/umd/popper.min.js}"></script>
+<script th:src="@{/webjars/bootstrap/js/bootstrap.min.js}"></script>
+<script th:src="@{/assets/jquery-treetable/jquery.treetable.js}"></script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $.ajax({
+            "type": 'get',
+            "url": '/nodes',
+            "dataType": "json",
+            "success": function (data) {
+                $.each(data, function (idx, obj) {
+                    $("#treeTable").append("<tr data-tt-id=\"" + obj.nodeId + "\" data-tt-parent-id=\"" + obj.pid + "\"><td>" + obj.text + "</td><td>" + obj.href + "</td><td><button class='btn btn-primary' id=\"" + obj.nodeId + "\">edit</button><button class='btn btn-danger' id=\"" + obj.nodeId + "\">delete</button></td></tr>");
+                });
+                $("#treeTable").treetable({
+                    expandable: true,
+                    initialState: "expanded",
+                    clickableNodeNames: true,
+                    indent: 30
+                });
+            }
+        });
+    });
+</script>
+
+</body>
+</html>

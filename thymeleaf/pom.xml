@@ -62,6 +62,7 @@
         <module>thymeleaf-bootstrap-date-formatting</module>
         <module>thymeleaf-bootstrap-pagination</module>
         <module>thymeleaf-bootstrap-modal</module>
+        <module>thymeleaf-bootstrap-treetable</module>
     </modules>
 
     <properties>

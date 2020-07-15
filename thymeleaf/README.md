@@ -57,6 +57,7 @@ Web Components:
 * [Spring Boot + Bootstrap + Thymeleaf Markdown Editor](https://frontbackend.com/thymeleaf/spring-boot-bootstrap-thymeleaf-markdown-editor)
 * [Spring Boot + Bootstrap + Thymeleaf Pagination (JPA, Liquibase, H2)](https://frontbackend.com/thymeleaf/spring-boot-bootstrap-thymeleaf-pagination-jpa-liquibase-h2)
 * [Spring Boot + Bootstrap + Thymeleaf Modal](https://frontbackend.com/thymeleaf/spring-boot-bootstrap-thymeleaf-modal)
+* [Spring Boot + Bootstrap + Thymeleaf Tree Table](https://frontbackend.com/thymeleaf/spring-boot-bootstrap-thymeleaf-tree-table)
 
 Utility Methods:
 * [#uris](https://frontbackend.com/thymeleaf/thymeleaf-utility-methods-for-uri-url)
