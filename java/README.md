@@ -21,6 +21,7 @@ Relevant Articles:
 * [Java IO - Reading Content from URL](https://frontbackend.com/java/java-io-reading-content-from-url)
 * [Java IO - Reading CSV file in Java](https://frontbackend.com/java/reading-csv-file-in-java)
 * [Java IO - Determine current working directory in Java](https://frontbackend.com/java/determine-current-working-directory-in-java)
+* [Java IO - How to get extension of a File in Java](https://frontbackend.com/java/how-to-get-extension-of-a-file-in-java)
 
 # Java IO Conversions
 
