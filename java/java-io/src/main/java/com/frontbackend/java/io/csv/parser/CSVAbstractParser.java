@@ -1,4 +1,6 @@
-package com.frontbackend.java.io.csv.model;
+package com.frontbackend.java.io.csv.parser;
+
+import com.frontbackend.java.io.csv.model.CSVField;
 
 import java.io.IOException;
 import java.lang.reflect.Field;

@@ -22,6 +22,7 @@ Relevant Articles:
 * [Java IO - Reading CSV file in Java](https://frontbackend.com/java/reading-csv-file-in-java)
 * [Java IO - Determine current working directory in Java](https://frontbackend.com/java/determine-current-working-directory-in-java)
 * [Java IO - How to get extension of a File in Java](https://frontbackend.com/java/how-to-get-extension-of-a-file-in-java)
+* [Java IO - How to list files in directory in Java](https://frontbackend.com/java/how-to-list-files-in-directory-in-java)
 
 # Java IO Conversions
 
