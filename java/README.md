@@ -6,6 +6,9 @@ Relevant Articles:
 
 * [Covert String to int in Java](https://frontbackend.com/java/covert-string-to-int-in-java)
 
+# Java Util
+
+* [How to list classes from JAR file in Java](https://frontbackend.com/java/how-to-list-classes-from-jar-file-in-java)
 
 # Java IO
 
