@@ -26,6 +26,7 @@ Relevant Articles:
 * [Java IO - Determine current working directory in Java](https://frontbackend.com/java/determine-current-working-directory-in-java)
 * [Java IO - How to get extension of a File in Java](https://frontbackend.com/java/how-to-get-extension-of-a-file-in-java)
 * [Java IO - How to list files in directory in Java](https://frontbackend.com/java/how-to-list-files-in-directory-in-java)
+* [Java IO - Copy a directory with files and subdirectories in Java](https://frontbackend.com/java/copy-a-directory-with-files-and-subdirectories-in-java)
 
 # Java IO Conversions
 
