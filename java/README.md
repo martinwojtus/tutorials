@@ -28,6 +28,7 @@ Relevant Articles:
 * [Java IO - How to list files in directory in Java](https://frontbackend.com/java/how-to-list-files-in-directory-in-java)
 * [Java IO - Copy a directory with files and subdirectories in Java](https://frontbackend.com/java/copy-a-directory-with-files-and-subdirectories-in-java)
 * [Java IO - Deleting a Directory Recursively](https://frontbackend.com/java/delete-folder-in-java-using-recursion)
+* [Java IO - Using try-with-resources statements](https://frontbackend.com/java/using-try-with-resources-statement-in-java-7)
 
 # Java IO Conversions
 
