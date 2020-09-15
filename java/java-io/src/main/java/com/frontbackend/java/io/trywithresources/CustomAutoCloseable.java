@@ -10,7 +10,6 @@ public class CustomAutoCloseable implements AutoCloseable {
 
     public void start() {
         System.out.println("Start...");
-        throw new RuntimeException("Something went wrong...");
     }
 
     @Override
