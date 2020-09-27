@@ -1,0 +1,202 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Spring Boot Thymeleaf Application - Bootstrap Wizard</title>
+
+    <link th:rel="stylesheet" th:href="@{/webjars/bootstrap/4.0.0-2/css/bootstrap.min.css} "/>
+    <link th:rel="stylesheet" th:href="@{/assets/jquery-steps/jquery.steps.css} "/>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+    <div class="container">
+        <a class="navbar-brand" href="/">Thymeleaf - Bootstrap Wizard</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+
+    <div class="row">
+        <div class="col">
+            <h2 class="mt-5">Create account</h2>
+
+            <form id="example-advanced-form" action="/account" method="post" th:object="${account}">
+                <h3>Account</h3>
+                <fieldset>
+                    <legend>Account Information</legend>
+
+                    <div class="row">
+                        <div class="col-5">
+                            <div class="form-group">
+                                <label for="userName-2">User name *</label>
+                                <input id="userName-2" name="username" th:field="*{username}" type="text"
+                                       class="form-control required" autocomplete="off">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="password-2">Password *</label>
+                                <input id="password-2" name="password" th:field="*{password}" type="text"
+                                       class="form-control required" autocomplete="off">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="confirm-2">Confirm Password *</label>
+                                <input id="confirm-2" name="confirm" type="text" class="form-control required"
+                                       autocomplete="off">
+                            </div>
+                        </div>
+                    </div>
+                    <p>(*) Mandatory</p>
+                </fieldset>
+
+                <h3>Profile</h3>
+                <fieldset>
+                    <legend>Profile Information</legend>
+
+                    <div class="row">
+                        <div class="col-5">
+                            <div class="form-group">
+                                <label for="name-2">First name *</label>
+                                <input id="name-2" name="name" th:field="*{name}" type="text"
+                                       class="form-control required" autocomplete="off">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="surname-2">Last name *</label>
+                                <input id="surname-2" name="surname" th:field="*{surname}" type="text"
+                                       class="form-control required" autocomplete="off">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email-2">Email *</label>
+                                <input id="email-2" name="email" th:field="*{email}" type="text"
+                                       class="form-control required email" autocomplete="off">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="address-2">Address</label>
+                                <input id="address-2" name="address" th:field="*{address}" type="text"
+                                       class="form-control" autocomplete="off">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="age-2">Age *</label>
+                                <input id="age-2" name="age" type="text" th:field="*{age}"
+                                       class="form-control required number" autocomplete="off">
+                                <small class="form-text text-muted">The warning step will show up if age is less than
+                                    18</small>
+                            </div>
+                        </div>
+                    </div>
+                    <p>(*) Mandatory</p>
+                </fieldset>
+
+                <h3>Warning</h3>
+                <fieldset>
+                    <legend>You are to young</legend>
+
+                    <p>Please go away ;-)</p>
+                </fieldset>
+
+                <h3>Finish</h3>
+                <fieldset>
+                    <legend>Terms and Conditions</legend>
+
+                    <input id="acceptTerms-2" name="acceptTerms" th:field="*{termsAccepted}" type="checkbox"
+                           class="required"> <label
+                        for="acceptTerms-2">I agree with the Terms and Conditions.</label>
+                </fieldset>
+            </form>
+
+        </div>
+    </div>
+</div>
+
+
+<script th:src="@{/webjars/jquery/jquery.min.js}"></script>
+<script th:src="@{/webjars/popper.js/umd/popper.min.js}"></script>
+<script th:src="@{/webjars/bootstrap/js/bootstrap.min.js}"></script>
+<script th:src="@{assets/jquery-steps/jquery.steps.min.js}"></script>
+<script th:src="@{assets/jquery-validate/jquery.validate.min.js}"></script>
+
+<script>
+    var form = $("#example-advanced-form").show();
+
+    form.steps({
+        headerTag: "h3",
+        bodyTag: "fieldset",
+        transitionEffect: "slideLeft",
+        onStepChanging: function (event, currentIndex, newIndex) {
+            // Allways allow previous action even if the current form is not valid!
+            if (currentIndex > newIndex) {
+                return true;
+            }
+            // Forbid next action on "Warning" step if the user is to young
+            if (newIndex === 3 && Number($("#age-2").val()) < 18) {
+                return false;
+            }
+            // Needed in some cases if the user went back (clean up)
+            if (currentIndex < newIndex) {
+                // To remove error styles
+                form.find(".body:eq(" + newIndex + ") label.error").remove();
+                form.find(".body:eq(" + newIndex + ") .error").removeClass("error");
+            }
+            form.validate().settings.ignore = ":disabled,:hidden";
+            return form.valid();
+        },
+        onStepChanged: function (event, currentIndex, priorIndex) {
+            // Used to skip the "Warning" step if the user is old enough.
+            if (currentIndex === 2 && Number($("#age-2").val()) >= 18) {
+                form.steps("next");
+            }
+            // Used to skip the "Warning" step if the user is old enough and wants to the previous step.
+            if (currentIndex === 2 && priorIndex === 3) {
+                form.steps("previous");
+            }
+        },
+        onFinishing: function (event, currentIndex) {
+            form.validate().settings.ignore = ":disabled";
+            return form.valid();
+        },
+        onFinished: function (event, currentIndex) {
+            form.submit();
+        }
+    }).validate({
+        errorPlacement: function errorPlacement(error, element) {
+            element.before(error);
+        },
+        rules: {
+            confirm: {
+                equalTo: "#password-2"
+            }
+        }
+    });
+</script>
+
+</body>
+</html>
