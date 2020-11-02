@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Spring Boot Thymeleaf Application - Forms</title>
+</head>
+<body>
+
+<form th:action="@{/posts}" th:object="${post}" method="post">
+
+    <div>
+        <label for="title">Title:</label>
+        <input id="title" type="text" th:field="*{title}" placeholder="Title"/>
+    </div>
+    <div>
+        <label for="content">Content:</label>
+        <textarea id="content" rows="2" placeholder="Content" th:field="*{content}"></textarea>
+    </div>
+
+    <input type="submit" value="Submit"/>
+</form>
+
+</body>
+</html>

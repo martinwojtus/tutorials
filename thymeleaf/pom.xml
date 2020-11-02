@@ -65,6 +65,7 @@
         <module>thymeleaf-bootstrap-treetable</module>
         <module>thymeleaf-bootstrap-table</module>
         <module>thymeleaf-bootstrap-wizard</module>
+        <module>thymeleaf-hidden-input</module>
     </modules>
 
     <properties>
