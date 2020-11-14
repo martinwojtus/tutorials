@@ -5,12 +5,10 @@ import java.util.List;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import lombok.Setter;
 
-@Setter
 @Getter
 @NoArgsConstructor
 public class Basket {
 
-    private List<BasketEntry> entries = new ArrayList<>();
+    private final List<BasketEntry> entries = new ArrayList<>();
 }
