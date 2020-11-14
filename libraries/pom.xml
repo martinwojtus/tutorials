@@ -12,6 +12,7 @@
     <modules>
 
         <module>failsafe</module>
+        <module>mockito</module>
     </modules>
 
     <properties>
