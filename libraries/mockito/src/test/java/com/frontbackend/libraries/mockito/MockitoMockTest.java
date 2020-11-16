@@ -20,7 +20,7 @@ public class MockitoMockTest {
         int update(String sql);
     }
 
-    class MyService {
+    static class MyService {
         private final MyDatabaseConnection myDatabaseConnection;
 
         MyService(MyDatabaseConnection myDatabaseConnection) {
