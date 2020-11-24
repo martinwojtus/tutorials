@@ -5,10 +5,13 @@ import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
+import java.util.List;
+
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.Mock;
+import org.mockito.Mockito;
 import org.mockito.junit.MockitoJUnitRunner;
 
 @RunWith(MockitoJUnitRunner.class)
@@ -37,6 +40,9 @@ public class MockitoMockTest {
     @Mock
     MyDatabaseConnection myDatabaseConnection;
 
+    @Mock
+    private List<String> mocked;
+
     @Test
     public void shouldSuccessfullyUpdateRows() {
         // Given
@@ -50,6 +56,19 @@ public class MockitoMockTest {
         verify(myDatabaseConnection, times(1)).openConnection();
         verify(myDatabaseConnection).update("update table set col = 'val'");
         Assert.assertTrue(success);
+    }
+
+    @Test
+    public void shouldAddItemsToList() {
+        mocked.add("one");
+        mocked.add("two");
+
+        Mockito.verify(mocked, times(2))
+               .add(anyString());
+        Mockito.verify(mocked)
+               .add("one");
+        Mockito.verify(mocked)
+               .add("two");
     }
 
     @Test
