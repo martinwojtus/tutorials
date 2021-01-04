@@ -14,6 +14,7 @@
         <module>custom-banner</module>
         <module>build-war</module>
         <module>read-resources</module>
+        <module>upload-file-into-filesystem</module>
     </modules>
 
     <properties>
