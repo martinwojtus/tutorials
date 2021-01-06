@@ -15,6 +15,7 @@
         <module>mockito</module>
         <module>mockito-static</module>
         <module>powermock</module>
+        <module>apache-poi</module>
     </modules>
 
     <properties>
