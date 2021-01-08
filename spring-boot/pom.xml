@@ -15,6 +15,7 @@
         <module>build-war</module>
         <module>read-resources</module>
         <module>upload-file-into-filesystem</module>
+        <module>upload-file-to-postgresql</module>
     </modules>
 
     <properties>
