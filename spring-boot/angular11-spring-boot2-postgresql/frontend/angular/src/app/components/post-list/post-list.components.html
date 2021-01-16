@@ -1,0 +1,65 @@
+<div class="list row">
+    <div class="col-md-6">
+        <h4>Posts List</h4>
+        <ul class="list-group">
+            <li
+                    class="list-group-item"
+                    *ngFor="let post of posts; let i = index"
+                    [class.active]="i == currentIndex"
+                    (click)="setSelected(post, i)">
+
+                {{ post.title }}
+            </li>
+        </ul>
+
+        <div *ngIf="!posts || posts.length == 0">
+            List is empty <a href="/form">add new Post</a>
+        </div>
+
+        <a *ngIf="posts && posts.length > 0" class="btn btn-link" routerLink="/form">
+            Add new Post
+        </a>
+    </div>
+    <div class="col-md-6">
+        <div *ngIf="selected">
+            <h4>Details</h4>
+            <div>
+                <label><strong>Title:</strong></label> {{ selected.title }}
+            </div>
+            <div>
+                <label><strong>Content:</strong></label>
+                {{ selected.content }}
+            </div>
+            <div>
+                <label><strong>Tags:</strong></label> {{ selected.tags }}
+            </div>
+            <div>
+                <label><strong>Status:</strong></label>
+                {{ selected.published ? "Published" : "Pending" }}
+            </div>
+
+            <a class="btn btn-sm btn-secondary mr-2" routerLink="/form/{{ selected.id }}">
+                Edit
+            </a>
+
+            <button class="btn btn-sm btn-danger mr-2" (click)="deletePost()">
+                Delete
+            </button>
+
+            <button
+                    class="btn btn-sm btn-warning mr-2"
+                    *ngIf="selected.id && selected.published"
+                    (click)="updatePublished(false)">
+                UnPublish
+            </button>
+            <button
+                    *ngIf="selected.id && !selected.published"
+                    class="btn btn-sm btn-warning mr-2"
+                    (click)="updatePublished(true)">
+                Publish
+            </button>
+        </div>
+
+        <p>{{ message }}</p>
+    </div>
+</div>

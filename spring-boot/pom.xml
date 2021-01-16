@@ -16,6 +16,7 @@
         <module>read-resources</module>
         <module>upload-file-into-filesystem</module>
         <module>upload-file-to-postgresql</module>
+        <module>angular11-spring-boot2-postgresql</module>
     </modules>
 
     <properties>
