@@ -1,0 +1,26 @@
+<div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="/">FrontBackend</a>
+
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="/posts">Posts</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="/form">Create</a>
+                    </li>
+                </ul>
+
+                <form class="form-inline my-2 my-md-0" action="/posts" method="get">
+                    <input class="form-control" type="text" placeholder="Search" aria-label="Search" name="title" (keydown)="searchPosts($event)">
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-3">
+        <router-outlet></router-outlet>
+    </div>
+</div>
