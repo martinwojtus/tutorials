@@ -18,6 +18,7 @@
         <module>upload-file-to-postgresql</module>
         <module>angular11-spring-boot2-postgresql</module>
         <module>angular11-spring-boot2-mysql</module>
+        <module>spring-boot2-junit5-mockito</module>
     </modules>
 
     <properties>
