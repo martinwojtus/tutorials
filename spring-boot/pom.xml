@@ -21,6 +21,7 @@
         <module>spring-boot2-junit5-mockito</module>
         <module>angular11-spring-boot2-download-file</module>
         <module>angular11-spring-boot2-pdf-viewer</module>
+        <module>angular11-spring-boot2-upload-file</module>
     </modules>
 
     <properties>
