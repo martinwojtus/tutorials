@@ -1,0 +1,31 @@
+<div class="row">
+    <div class="col-8">
+        <label class="btn btn-default p-0">
+            <input type="file" (change)="selectFile($event)"/>
+        </label>
+    </div>
+
+    <div class="col-4 text-right">
+        <button class="btn btn-success btn-sm" [disabled]="!selectedFiles" (click)="upload()">
+            Upload file
+        </button>
+    </div>
+</div>
+<div class="row">
+    <div class="col">
+        <div *ngIf="currentFile" class="progress my-3">
+            <div
+                    class="progress-bar progress-bar-info progress-bar-striped"
+                    role="progressbar"
+                    attr.aria-valuenow="{{ progress }}"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    [ngStyle]="{ width: progress + '%' }">
+                {{ progress }}%
+            </div>
+        </div>
+
+        <div *ngIf="message" class="alert alert-success" role="alert">{{ message }}</div>
+        <div *ngIf="errorMsg" class="alert alert-danger" role="alert">{{ errorMsg }}</div>
+    </div>
+</div>
