@@ -23,6 +23,7 @@
         <module>angular11-spring-boot2-pdf-viewer</module>
         <module>angular11-spring-boot2-upload-file</module>
         <module>angular11-spring-boot2-upload-file-with-progress</module>
+        <module>upload-file-to-redis</module>
     </modules>
 
     <properties>
