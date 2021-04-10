@@ -24,6 +24,7 @@
         <module>angular11-spring-boot2-upload-file</module>
         <module>angular11-spring-boot2-upload-file-with-progress</module>
         <module>upload-file-to-redis</module>
+        <module>getting-started-with-redis</module>
     </modules>
 
     <properties>
