@@ -26,6 +26,7 @@
         <module>upload-file-to-redis</module>
         <module>getting-started-with-redis</module>
         <module>angular11-spring-boot2-download-pdf-excel-csv</module>
+        <module>getting-started-with-mongodb</module>
     </modules>
 
     <properties>
