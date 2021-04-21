@@ -15,6 +15,7 @@
         <module>java-io-resources</module>
         <module>java-io-working-directory</module>
         <module>java-util</module>
+        <module>cryptography</module>
     </modules>
 
     <properties>
