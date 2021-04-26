@@ -1,0 +1,40 @@
+<div class="row">
+    <div class="col-12">
+        <button class="btn btn-primary mr-1" (click)="openForAdd()">Add</button>
+        <button class="btn btn-warning mr-1" (click)="openForEdit()" [disabled]="disableEdit">Edit</button>
+
+        <button class="btn btn-danger" (click)="openDeleteConfirmation()" [disabled]="disableRemove">Delete</button>
+
+        <table class="table table-sm row-border hover" datatable [dtOptions]="dtOptions"
+               [dtTrigger]="dtTrigger">
+            <thead>
+            <tr>
+                <th>
+                    <input type="checkbox" [value]="gridCheckAll"
+                           (change)="gridAllRowsCheckBoxChecked($event)"/>
+                </th>
+                <th>First name</th>
+                <th>Last name</th>
+                <th>Position</th>
+                <th>Start data</th>
+                <th>Salary</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr *ngFor="let e of employees">
+                <td>
+                    <input type="checkbox" [(ngModel)]="e.checked"
+                           (change)="rowCheckBoxChecked($event, e.id)"/>
+                </td>
+                <td>{{e.firstName}}</td>
+                <td>{{e.lastName}}</td>
+                <td>{{Position2LabelMapping[e.position]}}</td>
+                <td>{{e.startDate | date}}</td>
+                <td>{{e.salary | currency}}</td>
+            </tr>
+            </tbody>
+        </table>
+
+    </div>
+</div>
+

@@ -1,0 +1,21 @@
+<div class="modal-header">
+    <h4 class="modal-title">Confirmation</h4>
+    <button type="button" class="close" aria-label="Close" (click)="close()">
+        <span aria-hidden="true">&times;</span>
+    </button>
+</div>
+<div class="modal-body">
+    <div class="modal-boy">
+        <div class="container">
+            <h5>Are you sure you want to remove selected employees?</h5>
+
+            <ul>
+                <li *ngFor="let e of employees">{{e.firstName}} {{e.lastName}} ({{Position2LabelMapping[e.position]}})</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="modal-footer">
+    <button type="button" class="btn btn-danger mr-1" (click)="delete()">Delete</button>
+    <button type="button" class="btn btn-outline-secondary" (click)="close()">Close</button>
+</div>

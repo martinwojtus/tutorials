@@ -1,0 +1,73 @@
+<form [formGroup]="form" (ngSubmit)="save()">
+    <div class="modal-header">
+        <h4 class="modal-title">Employee</h4>
+        <button type="button" class="close" aria-label="Close" (click)="close()">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div class="modal-body">
+        <div class="modal-boy">
+            <div class="container">
+                <div class="form-group">
+                    <label for="firstName">First name</label>
+                    <input id="firstName"
+                           type="text"
+                           class="form-control"
+                           autocomplete="off"
+                           formControlName="firstName"/>
+                    <control-messages [control]="form.get('firstName')"></control-messages>
+                </div>
+                <div class="form-group">
+                    <label for="lastName">Last Name</label>
+                    <input id="lastName"
+                           type="text"
+                           class="form-control"
+                           autocomplete="off"
+                           formControlName="lastName">
+                    <control-messages [control]="form.get('lastName')"></control-messages>
+                </div>
+                <div class="form-group">
+                    <label for="position">Position</label>
+                    <select id="position"
+                            class="form-control"
+                            autocomplete="off"
+                            formControlName="position">
+
+                        <option value="" disabled>Choose position</option>
+                        <option [value]="position" *ngFor="let position of positions">{{ Position2LabelMapping[position] }}</option>
+                    </select>
+                    <control-messages [control]="form.get('position')"></control-messages>
+                </div>
+                <div class="form-group">
+                    <label for="startDate">Start date</label>
+                    <div class="input-group">
+                        <input id="startDate"
+                               class="form-control"
+                               placeholder="yyyy-mm-dd"
+                               formControlName="startDate"
+                               autocomplete="off"
+                               name="startDate" ngbDatepicker #dp="ngbDatepicker">
+
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-secondary calendar" (click)="dp.toggle()" type="button"></button>
+                        </div>
+                    </div>
+                    <control-messages [control]="form.get('position')"></control-messages>
+                </div>
+                <div class="form-group">
+                    <label for="salary">Salary</label>
+                    <input id="salary"
+                           type="text"
+                           class="form-control"
+                           autocomplete="off"
+                           formControlName="salary">
+                    <control-messages [control]="form.get('salary')"></control-messages>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-success mr-1" (click)="save()">Save</button>
+        <button type="button" class="btn btn-outline-secondary" (click)="close()">Close</button>
+    </div>
+</form>
