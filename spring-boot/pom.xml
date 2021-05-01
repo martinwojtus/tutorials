@@ -28,6 +28,7 @@
         <module>angular11-spring-boot2-download-pdf-excel-csv</module>
         <module>getting-started-with-mongodb</module>
         <module>angular11-spring-boot2-mongodb-datatable</module>
+        <module>react-drag-and-drop-taskboard-spring-boot2-postgresql</module>
     </modules>
 
     <properties>
