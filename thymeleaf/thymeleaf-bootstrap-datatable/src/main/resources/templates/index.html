@@ -43,6 +43,7 @@
 <div class="container">
     <div class="row">
         <div class="col-lg-10 mt-5 mb-5">
+            <h3>Datatable using list of Objects in data parameter</h3>
             <table id="example" class="table table-bordered table-responsive" style="width: 100%">
                 <thead>
                 <tr>
@@ -51,6 +52,33 @@
                     <th>Office</th>
                     <th>Start date</th>
                     <th>Salary</th>
+                </tr>
+                </thead>
+                <tfoot>
+                <tr>
+                    <th>Name</th>
+                    <th>Position</th>
+                    <th>Office</th>
+                    <th>Start date</th>
+                    <th>Salary</th>
+                </tr>
+                </tfoot>
+            </table>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-lg-10 mt-5 mb-5">
+            <h3>Datatable using list of Arrays in data parameter</h3>
+            <table id="exampleArray" class="table table-bordered table-responsive" style="width: 100%">
+                <thead>
+                <tr>
+                    <th style="width:20%">Name</th>
+                    <th style="width:20%">Position</th>
+                    <th style="width:20%">Office</th>
+                    <th style="width:20%">Start date</th>
+                    <th style="width:20%">Salary</th>
                 </tr>
                 </thead>
                 <tfoot>
@@ -93,6 +121,20 @@
             {"data": "start_date", "width": "20%"},
             {"data": "salary", "width": "20%"}
         ]
+    });
+
+    $('#exampleArray').DataTable({
+        "processing": true,
+        "serverSide": true,
+        "ajax": {
+            "url": "/employees/array",
+            "type": "POST",
+            "dataType": "json",
+            "contentType": "application/json",
+            "data": function (d) {
+                return JSON.stringify(d);
+            }
+        }
     });
 </script>
 

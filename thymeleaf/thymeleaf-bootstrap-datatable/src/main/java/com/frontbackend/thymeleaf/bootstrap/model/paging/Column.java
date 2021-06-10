@@ -14,4 +14,8 @@ public class Column {
     private Boolean searchable;
     private Boolean orderable;
     private Search search;
+
+    public Column(String data) {
+        this.data = data;
+    }
 }

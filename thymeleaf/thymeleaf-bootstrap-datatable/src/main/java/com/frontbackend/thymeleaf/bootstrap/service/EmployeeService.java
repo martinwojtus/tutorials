@@ -1,10 +1,13 @@
 package com.frontbackend.thymeleaf.bootstrap.service;
 
 import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
@@ -16,6 +19,7 @@ import com.frontbackend.thymeleaf.bootstrap.model.EmployeeComparators;
 import com.frontbackend.thymeleaf.bootstrap.model.paging.Column;
 import com.frontbackend.thymeleaf.bootstrap.model.paging.Order;
 import com.frontbackend.thymeleaf.bootstrap.model.paging.Page;
+import com.frontbackend.thymeleaf.bootstrap.model.paging.PageArray;
 import com.frontbackend.thymeleaf.bootstrap.model.paging.PagingRequest;
 
 import lombok.extern.slf4j.Slf4j;
@@ -25,6 +29,31 @@ import lombok.extern.slf4j.Slf4j;
 public class EmployeeService {
 
     private static final Comparator<Employee> EMPTY_COMPARATOR = (e1, e2) -> 0;
+
+    private static final SimpleDateFormat sdf = new SimpleDateFormat("yyyy/MM/dd");
+
+    public PageArray getEmployeesArray(PagingRequest pagingRequest) {
+        pagingRequest.setColumns(Stream.of("name", "position", "office", "start_date", "salary")
+                                       .map(Column::new)
+                                       .collect(Collectors.toList()));
+        Page<Employee> employeePage = getEmployees(pagingRequest);
+
+        PageArray pageArray = new PageArray();
+        pageArray.setRecordsFiltered(employeePage.getRecordsFiltered());
+        pageArray.setRecordsTotal(employeePage.getRecordsTotal());
+        pageArray.setDraw(employeePage.getDraw());
+        pageArray.setData(employeePage.getData()
+                                      .stream()
+                                      .map(this::toStringList)
+                                      .collect(Collectors.toList()));
+        return pageArray;
+    }
+
+    private List<String> toStringList(Employee employee) {
+        return Arrays.asList(employee.getName(), employee.getPosition(), employee.getOffice(), sdf.format(employee.getStartDate()),
+                employee.getSalary()
+                        .toString());
+    }
 
     public Page<Employee> getEmployees(PagingRequest pagingRequest) {
         ObjectMapper objectMapper = new ObjectMapper();
@@ -53,8 +82,8 @@ public class EmployeeService {
                                            .collect(Collectors.toList());
 
         long count = employees.stream()
-                             .filter(filterEmployees(pagingRequest))
-                             .count();
+                              .filter(filterEmployees(pagingRequest))
+                              .count();
 
         Page<Employee> page = new Page<>(filtered);
         page.setRecordsFiltered((int) count);

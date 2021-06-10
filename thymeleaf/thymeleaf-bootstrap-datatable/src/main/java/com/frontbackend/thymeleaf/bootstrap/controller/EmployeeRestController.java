@@ -1,5 +1,6 @@
 package com.frontbackend.thymeleaf.bootstrap.controller;
 
+import com.frontbackend.thymeleaf.bootstrap.model.paging.PageArray;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -25,5 +26,10 @@ public class EmployeeRestController {
     @PostMapping
     public Page<Employee> list(@RequestBody PagingRequest pagingRequest) {
         return employeeService.getEmployees(pagingRequest);
+    }
+
+    @PostMapping("/array")
+    public PageArray array(@RequestBody PagingRequest pagingRequest) {
+        return employeeService.getEmployeesArray(pagingRequest);
     }
 }
