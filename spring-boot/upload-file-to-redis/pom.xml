@@ -11,7 +11,8 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.4.4-SNAPSHOT</version>
+        <version>2.4.1</version>
+        <relativePath/>
     </parent>
 
     <!-- Add typical dependencies for a web application -->
@@ -27,7 +28,7 @@
         <dependency>
             <groupId>redis.clients</groupId>
             <artifactId>jedis</artifactId>
-            <version>3.3.0</version>
+            <version>4.2.0</version>
         </dependency>
     </dependencies>
 
