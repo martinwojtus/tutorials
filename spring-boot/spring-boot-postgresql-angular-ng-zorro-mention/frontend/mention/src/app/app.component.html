@@ -1,0 +1,29 @@
+<div nz-row>
+  <div nz-col nzSpan="12" nzOffset="6">
+    <form nz-form [formGroup]="validateForm" (ngSubmit)="submitForm()">
+      <nz-form-item>
+        <nz-form-label [nzSm]="6" nzFor="mention">Top programmers</nz-form-label>
+        <nz-form-control [nzSm]="16" nzErrorTip="At least one must be selected!">
+          <nz-mention [nzSuggestions]="suggestions" [nzLoading]="loading" (nzOnSearchChange)="onSearchChange($event)">
+            <input nzMentionTrigger placeholder="input here" nz-input formControlName="mention" nz-input/>
+          </nz-mention>
+        </nz-form-control>
+      </nz-form-item>
+      <nz-form-item nz-row style="margin-bottom:8px;">
+        <nz-form-control [nzSpan]="14" [nzOffset]="6">
+          <button type="button" nz-button nzType="primary" (click)="submitForm()">Submit</button>
+          &nbsp;&nbsp;&nbsp;
+          <button type="button" nz-button (click)="resetForm()">Reset</button>
+        </nz-form-control>
+      </nz-form-item>
+    </form>
+  </div>
+</div>
+<div nz-row *ngIf="topUsers && topUsers.length > 0">
+  <div nz-col nzSpan="12" nzOffset="6">
+    <h2>Top users</h2>
+    <ul>
+      <li *ngFor="let user of topUsers">{{user}}</li>
+    </ul>
+  </div>
+</div>

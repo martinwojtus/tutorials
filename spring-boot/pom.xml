@@ -30,6 +30,7 @@
         <module>angular11-spring-boot2-mongodb-datatable</module>
         <module>react-drag-and-drop-taskboard-spring-boot2-postgresql</module>
         <module>getting-started</module>
+        <module>spring-boot-postgresql-angular-ng-zorro-mention</module>
     </modules>
 
     <properties>

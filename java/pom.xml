@@ -16,6 +16,7 @@
         <module>java-io-working-directory</module>
         <module>java-util</module>
         <module>cryptography</module>
+        <module>datetime</module>
     </modules>
 
     <properties>
