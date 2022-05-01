@@ -10,12 +10,13 @@
     <packaging>pom</packaging>
 
     <modules>
-
         <module>failsafe</module>
         <module>mockito</module>
         <module>mockito-static</module>
         <module>powermock</module>
         <module>apache-poi</module>
+        <module>lombok</module>
+        <module>mockito-static-v4</module>
     </modules>
 
     <properties>
