@@ -9,7 +9,7 @@ import org.mockito.Mockito;
 import org.mockito.junit.MockitoJUnitRunner;
 
 @RunWith(MockitoJUnitRunner.class)
-public class MockitoSpyCallsOriginalMethod {
+public class MockitoSpyCallsOriginalMethodTest {
 
     public ThrowingService instance = new ThrowingService();
 

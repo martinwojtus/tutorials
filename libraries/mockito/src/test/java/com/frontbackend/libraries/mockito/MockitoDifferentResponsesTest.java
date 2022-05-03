@@ -11,7 +11,7 @@ import org.mockito.Spy;
 import org.mockito.junit.MockitoJUnitRunner;
 
 @RunWith(MockitoJUnitRunner.class)
-public class MockitoDifferentResponses {
+public class MockitoDifferentResponsesTest {
 
     interface SomeMock {
         String someMethod();
