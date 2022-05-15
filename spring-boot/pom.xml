@@ -31,6 +31,7 @@
         <module>react-drag-and-drop-taskboard-spring-boot2-postgresql</module>
         <module>getting-started</module>
         <module>spring-boot-postgresql-angular-ng-zorro-mention</module>
+        <module>spring-boot-for-testing-curl</module>
     </modules>
 
     <properties>
