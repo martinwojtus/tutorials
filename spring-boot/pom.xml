@@ -32,6 +32,7 @@
         <module>getting-started</module>
         <module>spring-boot-postgresql-angular-ng-zorro-mention</module>
         <module>spring-boot-for-testing-curl</module>
+        <module>spring-boot-postgresql-angular-ng-zorro-table</module>
     </modules>
 
     <properties>

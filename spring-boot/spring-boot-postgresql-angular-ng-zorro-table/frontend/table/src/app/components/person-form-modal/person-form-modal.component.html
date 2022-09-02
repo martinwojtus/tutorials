@@ -1,0 +1,35 @@
+<div *nzModalTitle>
+  Person
+</div>
+<div>
+  <form id="personForm" nz-form [formGroup]="personForm" (ngSubmit)="submitForm()">
+    <nz-form-item>
+      <nz-form-label [nzSm]="6" nzFor="firstNameField" nzRequired>First name</nz-form-label>
+      <nz-form-control [nzSm]="16">
+        <input id="firstNameField" nz-input formControlName="firstName" autocomplete="off"/>
+      </nz-form-control>
+    </nz-form-item>
+    <nz-form-item>
+      <nz-form-label [nzSm]="6" nzFor="lastNameField" nzRequired>Last name</nz-form-label>
+      <nz-form-control [nzSm]="16">
+        <input id="lastNameField" nz-input formControlName="lastName" autocomplete="off"/>
+      </nz-form-control>
+    </nz-form-item>
+    <nz-form-item>
+      <nz-form-label [nzSm]="6" nzFor="ageField" nzRequired>Age</nz-form-label>
+      <nz-form-control [nzSm]="16">
+        <input id="ageField" nz-input formControlName="age" autocomplete="off"/>
+      </nz-form-control>
+    </nz-form-item>
+    <nz-form-item>
+      <nz-form-label [nzSm]="6" nzFor="addressField" nzRequired>Address</nz-form-label>
+      <nz-form-control [nzSm]="16">
+        <input id="addressField" nz-input formControlName="address" autocomplete="off"/>
+      </nz-form-control>
+    </nz-form-item>
+  </form>
+</div>
+<div *nzModalFooter>
+  <button nz-button nzType="default" (click)="closeModal()">Close</button>
+  <button type="submit" form="personForm" nz-button nzType="primary" (click)="submitForm()">Save</button>
+</div>

@@ -1,0 +1,71 @@
+<button nz-button (click)="addPerson()" nzType="primary">Add</button>
+<br/>
+<br/>
+
+<nz-table
+  nzShowSizeChanger
+  [nzData]="persons"
+  [nzFrontPagination]="false"
+  [nzLoading]="loading"
+  [nzTotal]="total"
+  [nzPageSize]="pageSize"
+  [nzPageIndex]="pageIndex"
+  (nzQueryParams)="onQueryParamsChange($event)"
+>
+  <thead>
+  <tr>
+    <th nzColumnKey="firstName" [nzSortFn]="true" nzCustomFilter>
+      First name
+      <nz-filter-trigger [(nzVisible)]="visibleFn" [nzActive]="pageRequest.filter.firstName.length > 0" [nzDropdownMenu]="menuFn">
+        <i nz-icon nzType="search"></i>
+      </nz-filter-trigger>
+
+      <nz-dropdown-menu #menuFn="nzDropdownMenu">
+        <div class="ant-table-filter-dropdown">
+          <div class="search-box">
+            <input type="text" nz-input placeholder="Search person" [(ngModel)]="pageRequest.filter.firstName"/>
+            <button nz-button nzSize="small" nzType="primary" (click)="search()" class="search-button">Search</button>
+            <button nz-button nzSize="small" (click)="resetFirstName()">Reset</button>
+          </div>
+        </div>
+      </nz-dropdown-menu>
+    </th>
+    <th nzColumnKey="lastName" [nzSortFn]="true" nzCustomFilter>
+      Last name
+      <nz-filter-trigger [(nzVisible)]="visibleLn" [nzActive]="pageRequest.filter.lastName.length > 0" [nzDropdownMenu]="menuLn">
+        <i nz-icon nzType="search"></i>
+      </nz-filter-trigger>
+
+      <nz-dropdown-menu #menuLn="nzDropdownMenu">
+        <div class="ant-table-filter-dropdown">
+          <div class="search-box">
+            <input type="text" nz-input placeholder="Search person" [(ngModel)]="pageRequest.filter.lastName"/>
+            <button nz-button nzSize="small" nzType="primary" (click)="search()" class="search-button">Search</button>
+            <button nz-button nzSize="small" (click)="resetLastName()">Reset</button>
+          </div>
+        </div>
+      </nz-dropdown-menu>
+    </th>
+    <th nzColumnKey="age" [nzSortFn]="true">Age</th>
+    <th nzColumnKey="address" [nzSortFn]="true">Address</th>
+    <th>Action</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let data of persons">
+    <td>{{ data.firstName }}</td>
+    <td>{{ data.lastName }}</td>
+    <td>{{ data.age }}</td>
+    <td>{{ data.address }}</td>
+    <td>
+      <nz-space>
+        <button *nzSpaceItem nz-button nzType="primary" (click)="editPerson(data.id)"><i nz-icon nzType="edit"></i></button>
+        <button *nzSpaceItem nz-button nzDanger nzType="primary" nz-popconfirm nzPopconfirmTitle="Sure to delete?" (nzOnConfirm)="removePerson(data.id)">
+          <i nz-icon nzType="delete"></i>
+        </button>
+      </nz-space>
+    </td>
+  </tr>
+  </tbody>
+</nz-table>
+
